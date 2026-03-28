@@ -1,0 +1,16 @@
+{{- $alt := .alt | default "Portrait of Kashif Nazir" -}}
+{{- $loading := .loading | default "lazy" -}}
+{{- $src := .src | default "/images/kash_bw.jpg" -}}
+{{- $width := .width | default 3351 -}}
+{{- $height := .height | default 4372 -}}
+<div class="portrait-frame{{ with .frameClass }} {{ . }}{{ end }}">
+  <img
+    src="{{ $src | relURL }}"
+    alt="{{ $alt }}"
+    loading="{{ $loading }}"
+    decoding="async"
+    width="{{ $width }}"
+    height="{{ $height }}"
+    {{- with .fetchpriority }} fetchpriority="{{ . }}"{{ end -}}
+  >
+</div>

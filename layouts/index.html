@@ -1,0 +1,98 @@
+{{- define "main" }}
+
+{{- with site.Params.editorial }}
+
+{{- /* ========== Circuit spine — SVG trace connecting all sections ========== */ -}}
+<div class="circuit" aria-hidden="true">
+  <svg class="circuit-svg" preserveAspectRatio="none">
+    <path class="circuit-trace circuit-trace--bg" />
+    <path class="circuit-trace circuit-trace--fill" />
+    <circle class="circuit-packet" r="5" />
+    {{- /* Node markers — positioned by JS at section boundaries */ -}}
+    <g class="circuit-node circuit-node--origin">
+      <circle r="8" />
+      <text dy="4" text-anchor="middle" class="circuit-node__label">ORIGIN</text>
+    </g>
+    <g class="circuit-node circuit-node--output">
+      <circle r="8" />
+      <text dy="4" text-anchor="middle" class="circuit-node__label">OUTPUT</text>
+    </g>
+    <g class="circuit-node circuit-node--signal">
+      <circle r="8" />
+      <text dy="4" text-anchor="middle" class="circuit-node__label">SIGNAL</text>
+    </g>
+  </svg>
+</div>
+
+{{- /* ========== Hero — editorial split with portrait ========== */ -}}
+<section class="hero" data-circuit-node="origin">
+  <div class="hero-content">
+    <h1 class="hero-name">{{ .headline }}</h1>
+    <p class="hero-role">{{ .role }}</p>
+    <p class="hero-lede">{{ .lede }}</p>
+    <a href="{{ .ctaUrl }}" class="hero-cta">
+      {{ .ctaLabel }}
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </a>
+  </div>
+  <div class="hero-portrait">
+    {{ partial "portrait-image.html" (dict "src" "/images/kash_bw_home.jpg" "width" 720 "height" 939 "alt" "Portrait of Kashif Nazir" "loading" "eager" "fetchpriority" "high") }}
+  </div>
+</section>
+
+{{- end }}{{/* end with editorial */}}
+
+{{- /* ========== Recent Writing — asymmetric bento ========== */ -}}
+{{- $pages := where site.RegularPages "Type" "in" site.Params.mainSections }}
+{{- $pages = where $pages "Params.hiddenInHomeList" "!=" "true" }}
+{{- if $pages }}
+<section class="writing-section" data-circuit-node="output">
+  <div class="writing-header">
+    <h2 class="writing-title">Recent writing</h2>
+    <a href="/blog/" class="writing-link">View all &rarr;</a>
+  </div>
+  <div class="writing-grid">
+    {{- range $i, $post := first 4 $pages }}
+    <article class="writing-card{{ if eq $i 0 }} writing-card--featured{{ end }}">
+      <a href="{{ .Permalink }}" class="writing-card__link">
+        <div class="writing-card__meta">
+          <time>{{ .Date.Format "Jan 2006" }}</time>
+          {{- with .Params.categories }}
+          <span>{{ index . 0 }}</span>
+          {{- end }}
+        </div>
+        <h3 class="writing-card__title">{{ .Title }}</h3>
+        {{- if eq $i 0 }}
+        <p class="writing-card__desc">{{ .Description }}</p>
+        {{- end }}
+        <span class="writing-card__read">Read &rarr;</span>
+      </a>
+    </article>
+    {{- end }}
+  </div>
+</section>
+{{- end }}
+
+{{- /* ========== Beyond — personal section ========== */ -}}
+<section class="beyond-section" data-circuit-node="signal">
+  <div class="beyond-content">
+    <h2 class="beyond-heading">Beyond the terminal</h2>
+    <div class="beyond-items">
+      <div class="beyond-item">
+        <span class="beyond-label">Travel</span>
+        <p>Lived abroad in the USA, Brussels, and travelled well beyond that. Some of it planned, most of it just exploring what’s there.</p>
+      </div>
+      <div class="beyond-item">
+        <span class="beyond-label">Food</span>
+        <p>Always cooking, usually family recipes, new cuisines, or whatever I’ve got to work with.</p>
+      </div>
+      <div class="beyond-item">
+        <span class="beyond-label">Martial arts</span>
+        <p>Muay Thai, BJJ, MMA, after years, still convincing myself I understand the basics.</p>
+      </div>
+    </div>
+    <a href="/about/" class="beyond-link">More about me &rarr;</a>
+  </div>
+</section>
+
+{{- end }}{{- /* end main */ -}}

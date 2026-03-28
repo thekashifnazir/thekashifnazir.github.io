@@ -1,0 +1,11 @@
+# Advisory ownership for sensitive site paths.
+
+* @thekashifnazir
+
+/README.md @thekashifnazir
+/CONTRIBUTING.md @thekashifnazir
+/.github/ @thekashifnazir
+/.gitmodules @thekashifnazir
+/hugo.toml @thekashifnazir
+/static/CNAME @thekashifnazir
+/content/ @thekashifnazir

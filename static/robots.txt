@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://kashifnazir.com/sitemap.xml

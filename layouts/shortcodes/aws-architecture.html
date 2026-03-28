@@ -1,0 +1,248 @@
+<figure class="arch-diagram" aria-label="AWS architecture diagram showing the planned hosting stack">
+
+  <div class="arch-diagram__lanes">
+
+    <!-- DEPLOY PIPELINE -->
+    <div class="arch-diagram__lane" data-lane="deploy">
+      <div class="arch-diagram__lane-header" data-step="1">
+        <span class="arch-diagram__lane-tag">Deploy</span>
+      </div>
+
+      <div class="arch-diagram__step" data-step="2">
+        <div class="arch-diagram__track">
+          <div class="arch-diagram__icon">
+            <svg viewBox="0 0 40 40" fill="none">
+              <rect x="8" y="6" width="24" height="16" rx="2" stroke="currentColor" stroke-width="1.5"/>
+              <line x1="14" y1="26" x2="26" y2="26" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+              <line x1="20" y1="22" x2="20" y2="26" stroke="currentColor" stroke-width="1.5"/>
+              <circle cx="20" cy="14" r="2" fill="currentColor" opacity="0.4"/>
+            </svg>
+          </div>
+          <div class="arch-diagram__trace"></div>
+        </div>
+        <div class="arch-diagram__info">
+          <span class="arch-diagram__label">Developer</span>
+          <span class="arch-diagram__sub">git push to main</span>
+        </div>
+      </div>
+
+      <div class="arch-diagram__step" data-step="3">
+        <div class="arch-diagram__track">
+          <div class="arch-diagram__icon">
+            <svg viewBox="0 0 40 40" fill="none">
+              <circle cx="20" cy="20" r="12" stroke="currentColor" stroke-width="1.5"/>
+              <path d="M15 20 L18 23 L25 16" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <div class="arch-diagram__trace"></div>
+        </div>
+        <div class="arch-diagram__info">
+          <span class="arch-diagram__label">GitHub Actions</span>
+          <span class="arch-diagram__sub">Hugo build + output artifact</span>
+        </div>
+      </div>
+
+      <div class="arch-diagram__step" data-step="4">
+        <div class="arch-diagram__track">
+          <div class="arch-diagram__icon">
+            <svg viewBox="0 0 40 40" fill="none">
+              <ellipse cx="20" cy="12" rx="11" ry="4" stroke="currentColor" stroke-width="1.5"/>
+              <path d="M9 12 V28 C9 30.2 14 32 20 32 C26 32 31 30.2 31 28 V12" stroke="currentColor" stroke-width="1.5"/>
+              <ellipse cx="20" cy="28" rx="11" ry="4" stroke="currentColor" stroke-width="1.5" stroke-dasharray="2 2" opacity="0.4"/>
+            </svg>
+          </div>
+          <div class="arch-diagram__trace"></div>
+        </div>
+        <div class="arch-diagram__info">
+          <span class="arch-diagram__label">S3 Sync</span>
+          <span class="arch-diagram__sub">aws s3 sync to hosting bucket</span>
+        </div>
+      </div>
+
+      <div class="arch-diagram__step arch-diagram__step--last" data-step="5">
+        <div class="arch-diagram__track">
+          <div class="arch-diagram__icon">
+            <svg viewBox="0 0 40 40" fill="none">
+              <circle cx="20" cy="20" r="12" stroke="currentColor" stroke-width="1.5"/>
+              <path d="M14 20 L20 14 L26 20 M20 14 V27" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+        </div>
+        <div class="arch-diagram__info">
+          <span class="arch-diagram__label">CloudFront Invalidation</span>
+          <span class="arch-diagram__sub">Purge edge caches after deploy</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- SERVE PATH -->
+    <div class="arch-diagram__lane" data-lane="serve">
+      <div class="arch-diagram__lane-header" data-step="6">
+        <span class="arch-diagram__lane-tag arch-diagram__lane-tag--serve">Serve</span>
+      </div>
+
+      <div class="arch-diagram__step" data-step="7">
+        <div class="arch-diagram__track">
+          <div class="arch-diagram__icon">
+            <svg viewBox="0 0 40 40" fill="none">
+              <circle cx="20" cy="14" r="6" stroke="currentColor" stroke-width="1.5"/>
+              <path d="M10 34 C10 27 14 23 20 23 C26 23 30 27 30 34" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <div class="arch-diagram__trace"></div>
+        </div>
+        <div class="arch-diagram__info">
+          <span class="arch-diagram__label">User</span>
+          <span class="arch-diagram__sub">Requests kashifnazir.com</span>
+        </div>
+      </div>
+
+      <div class="arch-diagram__step" data-step="8">
+        <div class="arch-diagram__track">
+          <div class="arch-diagram__icon">
+            <svg viewBox="0 0 40 40" fill="none">
+              <path d="M20 8 L32 16 L32 28 L20 36 L8 28 L8 16 Z" stroke="currentColor" stroke-width="1.5"/>
+              <text x="20" y="24" text-anchor="middle" fill="currentColor" font-size="9" font-family="'Outfit', sans-serif" font-weight="600">53</text>
+            </svg>
+          </div>
+          <div class="arch-diagram__trace"></div>
+        </div>
+        <div class="arch-diagram__info">
+          <span class="arch-diagram__label">Route 53</span>
+          <span class="arch-diagram__sub">DNS lookup → CloudFront distribution</span>
+        </div>
+      </div>
+
+      <div class="arch-diagram__step" data-step="9">
+        <div class="arch-diagram__track">
+          <div class="arch-diagram__icon">
+            <svg viewBox="0 0 40 40" fill="none">
+              <circle cx="20" cy="20" r="12" stroke="currentColor" stroke-width="1.5"/>
+              <circle cx="20" cy="20" r="6" stroke="currentColor" stroke-width="1" opacity="0.5"/>
+              <line x1="20" y1="8" x2="20" y2="14" stroke="currentColor" stroke-width="1" opacity="0.5"/>
+              <line x1="20" y1="26" x2="20" y2="32" stroke="currentColor" stroke-width="1" opacity="0.5"/>
+              <line x1="8" y1="20" x2="14" y2="20" stroke="currentColor" stroke-width="1" opacity="0.5"/>
+              <line x1="26" y1="20" x2="32" y2="20" stroke="currentColor" stroke-width="1" opacity="0.5"/>
+            </svg>
+          </div>
+          <div class="arch-diagram__trace"></div>
+        </div>
+        <div class="arch-diagram__info">
+          <span class="arch-diagram__label">CloudFront</span>
+          <span class="arch-diagram__sub">HTTPS (ACM), edge cache, HTTP/2</span>
+        </div>
+      </div>
+
+      <div class="arch-diagram__step arch-diagram__step--last" data-step="10">
+        <div class="arch-diagram__track">
+          <div class="arch-diagram__icon">
+            <svg viewBox="0 0 40 40" fill="none">
+              <ellipse cx="20" cy="12" rx="11" ry="4" stroke="currentColor" stroke-width="1.5"/>
+              <path d="M9 12 V28 C9 30.2 14 32 20 32 C26 32 31 30.2 31 28 V12" stroke="currentColor" stroke-width="1.5"/>
+              <ellipse cx="20" cy="28" rx="11" ry="4" stroke="currentColor" stroke-width="1.5" stroke-dasharray="2 2" opacity="0.4"/>
+            </svg>
+          </div>
+        </div>
+        <div class="arch-diagram__info">
+          <span class="arch-diagram__label">S3 Origin</span>
+          <span class="arch-diagram__sub">Static files served to CloudFront</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- MANAGE LAYER -->
+  <div class="arch-diagram__manage">
+    <div class="arch-diagram__manage-header" data-step="11">
+      <span class="arch-diagram__lane-tag arch-diagram__lane-tag--manage">Manage</span>
+    </div>
+    <div class="arch-diagram__manage-grid">
+      <div class="arch-diagram__manage-item" data-step="12">
+        <svg viewBox="0 0 16 16" fill="none" class="arch-diagram__manage-icon">
+          <rect x="1" y="4" width="5" height="4" fill="currentColor" opacity="0.6"/>
+          <rect x="7" y="1" width="5" height="4" fill="currentColor" opacity="0.8"/>
+          <rect x="7" y="7" width="5" height="4" fill="currentColor" opacity="0.6"/>
+          <rect x="7" y="13" width="5" height="3" fill="currentColor" opacity="0.4"/>
+        </svg>
+        <div class="arch-diagram__manage-text">
+          <span class="arch-diagram__label">Terraform</span>
+          <span class="arch-diagram__sub">All infra as code — state in S3 + DynamoDB locking</span>
+        </div>
+      </div>
+      <div class="arch-diagram__manage-item" data-step="13">
+        <svg viewBox="0 0 16 16" fill="none" class="arch-diagram__manage-icon">
+          <circle cx="8" cy="8" r="6" stroke="currentColor" stroke-width="1"/>
+          <polyline points="8,4 8,8 11,10" stroke="currentColor" stroke-width="1" stroke-linecap="round" fill="none"/>
+        </svg>
+        <div class="arch-diagram__manage-text">
+          <span class="arch-diagram__label">CloudWatch</span>
+          <span class="arch-diagram__sub">Alarms, metrics, error rate monitoring</span>
+        </div>
+      </div>
+      <div class="arch-diagram__manage-item" data-step="14">
+        <svg viewBox="0 0 16 16" fill="none" class="arch-diagram__manage-icon">
+          <rect x="2" y="3" width="12" height="10" rx="1" stroke="currentColor" stroke-width="1"/>
+          <text x="8" y="10.5" text-anchor="middle" fill="currentColor" font-size="5" font-family="'Outfit', sans-serif" font-weight="600">£</text>
+        </svg>
+        <div class="arch-diagram__manage-text">
+          <span class="arch-diagram__label">AWS Budgets</span>
+          <span class="arch-diagram__sub">Cost alerts — target &lt;£5/month</span>
+        </div>
+      </div>
+      <div class="arch-diagram__manage-item" data-step="15">
+        <svg viewBox="0 0 16 16" fill="none" class="arch-diagram__manage-icon">
+          <rect x="2" y="2" width="12" height="12" rx="2" stroke="currentColor" stroke-width="1"/>
+          <path d="M5 8 L7 10 L11 6" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        <div class="arch-diagram__manage-text">
+          <span class="arch-diagram__label">ACM</span>
+          <span class="arch-diagram__sub">TLS certificate provisioning + auto-renewal</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <figcaption>The planned AWS stack — deploy pipeline on the left, request path on the right, infrastructure management underneath. All provisioned via Terraform.</figcaption>
+</figure>
+
+<script>
+(function() {
+  if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    document.querySelectorAll('[data-step]').forEach(function(el) {
+      el.style.opacity = '1';
+      el.style.transform = 'none';
+    });
+    return;
+  }
+
+  var diagram = document.querySelector('.arch-diagram');
+  if (!diagram || typeof IntersectionObserver === 'undefined') return;
+
+  var allSteps = diagram.querySelectorAll('[data-step]');
+  allSteps.forEach(function(s) { s.classList.add('arch-diagram--hidden'); });
+
+  var observer = new IntersectionObserver(function(entries) {
+    entries.forEach(function(entry) {
+      if (entry.isIntersecting) {
+        // Sort by data-step number for staggered reveal
+        var sorted = Array.from(allSteps).sort(function(a, b) {
+          return parseInt(a.getAttribute('data-step')) - parseInt(b.getAttribute('data-step'));
+        });
+
+        var delay = 0;
+        sorted.forEach(function(el) {
+          setTimeout(function() {
+            el.classList.remove('arch-diagram--hidden');
+            el.classList.add('arch-diagram--reveal');
+          }, delay);
+          delay += 100;
+        });
+        observer.disconnect();
+      }
+    });
+  }, { threshold: 0.15 });
+
+  observer.observe(diagram);
+})();
+</script>

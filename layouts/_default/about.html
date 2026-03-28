@@ -1,0 +1,31 @@
+{{- define "main" }}
+
+<article class="about-page">
+  <header class="about-header">
+    {{ partial "breadcrumbs.html" . }}
+  </header>
+
+  <div class="about-hero">
+    <div class="about-hero__text">
+      <h1 class="about-name">{{ .Title }}</h1>
+      <p class="about-role">{{ site.Params.editorial.role }}</p>
+      {{- if .Description }}
+      <p class="about-desc">{{ .Description }}</p>
+      {{- end }}
+    </div>
+    <div class="about-hero__portrait">
+      {{ partial "portrait-image.html" (dict "src" "/images/kash_colour_about.jpg" "width" 560 "height" 652 "frameClass" "portrait-frame--about" "alt" "Portrait of Kashif Nazir") }}
+    </div>
+  </div>
+
+  <div class="about-body">
+    <div class="post-content">
+      {{- if not (.Param "disableAnchoredHeadings") }}
+      {{- partial "anchored_headings.html" .Content -}}
+      {{- else }}{{ .Content }}{{ end }}
+    </div>
+  </div>
+
+</article>
+
+{{- end }}{{/* end main */}}

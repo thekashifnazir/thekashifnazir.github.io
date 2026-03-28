@@ -1,0 +1,77 @@
+baseURL = 'https://kashifnazir.com/'
+languageCode = 'en-gb'
+title = 'Kashif Nazir'
+theme = 'PaperMod'
+enableRobotsTXT = true
+
+[pagination]
+pagerSize = 10
+
+[params]
+env = 'production'
+description = 'Senior Technical Architect documenting the journey into AWS, Kubernetes, Linux, and Python.'
+author = 'Kashif Nazir'
+defaultTheme = 'light'
+disableThemeToggle = true
+ShowReadingTime = true
+ShowShareButtons = false
+ShowPostNavLinks = true
+ShowBreadCrumbs = true
+ShowCodeCopyButtons = true
+ShowToc = true
+TocOpen = false
+mainSections = ['blog']
+
+[params.schema]
+publisherType = 'Person'
+
+[params.homeInfoParams]
+Title = 'Kashif Nazir'
+Content = 'Senior Technical Architect. Building in public and writing about AWS, Kubernetes, Linux, GitHub workflows, and Python.'
+
+[params.editorial]
+headline = 'Kashif Nazir'
+role = 'Senior Technical Architect'
+lede = 'I sit between strategy and engineering — shaping architecture decisions, evaluating emerging tech, and writing about the reasoning that usually stays in my head.'
+ctaLabel = 'Read the blog'
+ctaUrl = '/blog/'
+closingText = 'New writing and active projects, updated as the work happens.'
+closingCtaLabel = 'Start reading'
+closingCtaUrl = '/blog/'
+
+[[params.socialIcons]]
+name = 'github'
+url = 'https://github.com/thekashifnazir'
+
+[[params.socialIcons]]
+name = 'email'
+url = 'mailto:contact@kashifnazir.com'
+
+[[menu.main]]
+identifier = 'blog'
+name = 'Blog'
+url = '/blog/'
+weight = 10
+
+[[menu.main]]
+identifier = 'projects'
+name = 'Projects'
+url = '/projects/'
+weight = 20
+
+[[menu.main]]
+identifier = 'about'
+name = 'About'
+url = '/about/'
+weight = 30
+
+[outputs]
+home = ['HTML', 'RSS', 'JSON']
+
+[minify]
+disableXML = true
+minifyOutput = true
+
+[caches]
+[caches.images]
+dir = ':cacheDir/images'

@@ -1,0 +1,53 @@
+{{- define "main" }}
+
+<header class="page-header">
+  {{ partial "breadcrumbs.html" . }}
+  <h1>{{ .Title | default "Projects" }}</h1>
+  {{- if .Description }}
+  <div class="post-description">
+    {{ .Description | markdownify }}
+  </div>
+  {{- end }}
+</header>
+
+{{- $pages := union .RegularPages .Sections }}
+
+{{- if $pages }}
+<div class="project-grid">
+  {{- range $pages }}
+  <article class="project-card">
+    <a href="{{ .Permalink }}" class="project-card__link">
+      {{- with .Params.cover.image }}
+      <div class="project-card__cover">
+        <img src="{{ . }}" alt="{{ $.Title }}" loading="lazy" />
+      </div>
+      {{- end }}
+      <div class="project-card__body">
+        <div class="project-card__meta">
+          {{- with .Params.categories }}
+          <span class="project-card__cat">{{ index . 0 }}</span>
+          {{- end }}
+          <time>{{ .Date.Format "Jan 2006" }}</time>
+        </div>
+        <h2 class="project-card__title">{{ .Title }}</h2>
+        {{- if .Description }}
+        <p class="project-card__desc">{{ .Description }}</p>
+        {{- end }}
+        {{- with .Params.tags }}
+        <div class="project-card__tags">
+          {{- range . }}
+          <span class="project-card__tag">{{ . }}</span>
+          {{- end }}
+        </div>
+        {{- end }}
+        <span class="project-card__read">View project &rarr;</span>
+      </div>
+    </a>
+  </article>
+  {{- end }}
+</div>
+{{- else }}
+<p class="project-empty">Projects coming soon.</p>
+{{- end }}
+
+{{- end }}
