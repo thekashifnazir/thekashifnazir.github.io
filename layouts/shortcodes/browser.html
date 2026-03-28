@@ -1,0 +1,10 @@
+<figure class="browser-frame">
+  <div class="browser-frame__bar">
+    <span class="browser-frame__dot"></span>
+    <span class="browser-frame__dot"></span>
+    <span class="browser-frame__dot"></span>
+    <span class="browser-frame__url">{{ with .Get "url" }}{{ . }}{{ else }}kashifnazir.com{{ end }}</span>
+  </div>
+  <img src="{{ .Get "src" }}" alt="{{ .Get "alt" | default "" }}">
+  {{ with .Get "caption" }}<figcaption style="padding: 0.75rem 0; font-size: 0.875rem; color: var(--secondary, #666); text-align: center;">{{ . }}</figcaption>{{ end }}
+</figure>

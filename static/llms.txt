@@ -1,0 +1,23 @@
+# Kashif Nazir
+
+> Senior Technical Architect writing about cloud architecture, application compatibility, platform modernisation, and learning in public. Based in the UK.
+
+Kash is a Senior Technical Architect at Cloudhouse, specialising in application compatibility, migration planning, and platform engineering. The site documents his learning journey across AWS, Kubernetes, infrastructure as code, Python, and Linux — with a focus on architecture decisions and the reasoning behind them.
+
+## Blog Posts
+
+- [The Architecture Unbuilt](https://kashifnazir.com/blog/architecture-unbuilt/): What was considered for hosting, why GitHub Pages won for now, the planned AWS migration stack, and thoughts on designing for AI agents and llms.txt.
+- [Building This Site](https://kashifnazir.com/blog/building-this-site/): How the site was built in two weeks using Hugo, two AI agents (Claude and Codex), and zero web development experience.
+- [AI for AWS Certs](https://kashifnazir.com/blog/ai-for-aws-certs/): Using custom GPTs to study for AWS certifications — prompt design, system instructions, and what actually works.
+
+## Projects
+
+- [Personal Site Build Log](https://kashifnazir.com/projects/site-build-log/): Tracking the first build of the personal site and the decisions behind it.
+
+## About
+
+- [About](https://kashifnazir.com/about/): Background, experience, and what this site is for.
+
+## Optional
+
+- [GitHub](https://github.com/thekashifnazir): Public repos and projects.

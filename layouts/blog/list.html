@@ -1,0 +1,62 @@
+{{- define "main" }}
+
+<header class="page-header">
+  {{ partial "breadcrumbs.html" . }}
+  <h1>{{ .Title | default "Writing" }}</h1>
+  {{- if .Description }}
+  <div class="post-description">
+    {{ .Description | markdownify }}
+  </div>
+  {{- end }}
+</header>
+
+{{- $pages := union .RegularPages .Sections }}
+{{- $paginator := .Paginate $pages }}
+
+<div class="blog-grid">
+  {{- range $i, $page := $paginator.Pages }}
+  <article class="blog-card{{ if and (eq $paginator.PageNumber 1) (eq $i 0) }} blog-card--featured{{ end }}">
+    <a href="{{ .Permalink }}" class="blog-card__link">
+      <div class="blog-card__meta">
+        <time>{{ .Date.Format "Jan 2, 2006" }}</time>
+        {{- with .Params.categories }}
+        <span class="blog-card__cat">{{ index . 0 }}</span>
+        {{- end }}
+      </div>
+      <h2 class="blog-card__title">{{ .Title }}</h2>
+      {{- if .Description }}
+      <p class="blog-card__desc">{{ .Description }}</p>
+      {{- else if and (eq $paginator.PageNumber 1) (eq $i 0) }}
+      <p class="blog-card__desc">{{ .Summary | plainify | truncate 160 }}</p>
+      {{- end }}
+      <div class="blog-card__foot">
+        {{- if .Params.readingTime }}
+        <span>{{ .ReadingTime }} min read</span>
+        {{- else if site.Params.ShowReadingTime }}
+        <span>{{ .ReadingTime }} min read</span>
+        {{- end }}
+        <span class="blog-card__read">Read &rarr;</span>
+      </div>
+    </a>
+  </article>
+  {{- end }}
+</div>
+
+{{- if gt $paginator.TotalPages 1 }}
+<footer class="page-footer">
+  <nav class="pagination">
+    {{- if $paginator.HasPrev }}
+    <a class="prev" href="{{ $paginator.Prev.URL | absURL }}">
+      &laquo; Previous
+    </a>
+    {{- end }}
+    {{- if $paginator.HasNext }}
+    <a class="next" href="{{ $paginator.Next.URL | absURL }}">
+      Next &raquo;
+    </a>
+    {{- end }}
+  </nav>
+</footer>
+{{- end }}
+
+{{- end }}

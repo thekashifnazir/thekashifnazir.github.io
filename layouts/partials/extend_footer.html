@@ -1,0 +1,3 @@
+{{- /* GSAP + Lenis main bundle — loaded on all pages */ -}}
+{{ $mainJS := resources.Get "js/main.js" | js.Build (dict "minify" true "target" "es2020") | fingerprint }}
+<script defer src="{{ $mainJS.RelPermalink }}" integrity="{{ $mainJS.Data.Integrity }}"></script>

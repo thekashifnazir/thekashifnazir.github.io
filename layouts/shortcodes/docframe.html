@@ -1,0 +1,14 @@
+<figure class="docframe {{ with .Get "variant" }}docframe--{{ . }}{{ else }}docframe--terminal{{ end }}{{ if eq (.Get "scroll") "true" }} docframe--scroll{{ end }}{{ if eq (.Get "fit") "true" }} docframe--fit{{ end }}">
+  <div class="docframe__header">
+    <span class="docframe__dot"></span>
+    <span class="docframe__dot"></span>
+    <span class="docframe__dot"></span>
+    <span class="docframe__title">{{ .Get "title" }}</span>
+  </div>
+  <div class="docframe__body">
+    <div class="docframe__content">
+      {{ .Inner | .Page.RenderString }}
+    </div>
+  </div>
+  {{ with .Get "caption" }}<figcaption class="docframe__caption">{{ . }}</figcaption>{{ end }}
+</figure>
