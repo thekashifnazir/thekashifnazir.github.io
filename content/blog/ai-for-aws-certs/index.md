@@ -2,6 +2,7 @@
 title: "AI for AWS Certs"
 date: 2026-03-24
 description: "I built two custom GPTs to help study for the AWS AI Practitioner exam. The note-creation one ate more time than it saved. The coaching one was worth keeping."
+images: ["/images/social/social-card-ai-for-aws-certs.png"]
 tags: ["aws", "ai", "certifications", "llms"]
 categories: ["Learning"]
 ShowToc: true

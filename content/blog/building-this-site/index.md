@@ -2,6 +2,7 @@
 title: "Building This Site"
 date: 2026-03-22
 description: "How I built kashifnazir.com in two weeks using Hugo, two AI agents, and zero web development experience."
+images: ["/images/social/social-card-building-this-site.png"]
 tags: ["hugo", "ai", "claude", "codex", "Github-pages"]
 categories: ["Build Log"]
 ShowToc: true
@@ -38,7 +39,7 @@ Claude was more opinionated about design decisions and better at self-correcting
 
 Claude had its own problems though. At one point it hit its token limit mid-session, and when I asked it to continue it came back on the wrong worktree. It had silently switched to the Codex branch and started committing there. It took about six commits before I noticed. The changes weren't catastrophic and I could roll them back, but now I verify the worktree and branch as the first step after every rate limit or session restart.
 
-{{< figure src="Github_worktree_claude_codex.png" alt="Illustration of Claude and Codex working on the same Git history — Claude forgot to check the branch, Codex asking why Claude's commits are on its branch" caption="The worktree problem in one picture. Claude switched branches after a rate limit and committed to the wrong one." >}}
+{{< figure src="github_worktree_claude_codex.png" alt="Illustration of Claude and Codex working on the same Git history — Claude forgot to check the branch, Codex asking why Claude's commits are on its branch" caption="The worktree problem in one picture. Claude switched branches after a rate limit and committed to the wrong one." >}}
 
 ---
 
