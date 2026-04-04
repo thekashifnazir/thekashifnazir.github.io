@@ -3,6 +3,7 @@ title: "Building kashifnazir.com"
 date: 2026-03-09
 draft: false
 description: "A short overview of the first public build of kashifnazir.com and the writing behind it."
+images: ["/images/social/social-card-building-this-site.png"]
 tags: ["hugo", "github-pages", "portfolio", "ai"]
 categories: ["Projects"]
 ShowToc: false

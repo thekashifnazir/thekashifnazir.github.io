@@ -6,6 +6,7 @@ Kash is a Senior Technical Architect at Cloudhouse, specialising in application 
 
 ## Blog Posts
 
+- [Pilot to Production: The Gap Nobody Plans For](https://kashifnazir.com/blog/pilot-to-production-gap-nobody-plans-for/): Why the difficult part of migrations and AI rollouts is usually the jump from a supported pilot to organisation-wide adoption.
 - [The Architecture Unbuilt](https://kashifnazir.com/blog/architecture-unbuilt/): What was considered for hosting, why GitHub Pages won for now, the planned AWS migration stack, and thoughts on designing for AI agents and llms.txt.
 - [Building This Site](https://kashifnazir.com/blog/building-this-site/): How the site was built in two weeks using Hugo, two AI agents (Claude and Codex), and zero web development experience.
 - [AI for AWS Certs](https://kashifnazir.com/blog/ai-for-aws-certs/): Using custom GPTs to study for AWS certifications — prompt design, system instructions, and what actually works.

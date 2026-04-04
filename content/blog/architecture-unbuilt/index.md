@@ -2,6 +2,7 @@
 title: "The Architecture Unbuilt"
 date: 2026-03-23
 description: "There are a lot of ways to build a personal site. I went with the simplest one. Here's what I considered, what I'm planning to build later, and some stuff about AI agents that I didn't expect to care about."
+images: ["/images/social/social-card-the-architecture-unbuilt.png"]
 tags: ["aws", "architecture", "github-pages", "ai", "llms-txt"]
 categories: ["Infrastructure"]
 ShowToc: true

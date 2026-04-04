@@ -1,6 +1,7 @@
 ---
 title: "About"
 description: "I'm Kashif Nazir — Kash to most people. Senior Technical Architect at Cloudhouse, and I somehow ended up spending a decade solving problems other people had given up on."
+images: ["/images/social/social-card-kashif-nazir.png"]
 layout: "about"
 hideMeta: true
 ShowToc: false

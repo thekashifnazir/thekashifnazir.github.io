@@ -11,6 +11,7 @@ pagerSize = 10
 env = 'production'
 description = 'Senior Technical Architect documenting the journey into AWS, Kubernetes, Linux, and Python.'
 author = 'Kashif Nazir'
+images = ['/images/social/social-card-kashif-nazir-site.png']
 defaultTheme = 'light'
 disableThemeToggle = true
 ShowReadingTime = true
