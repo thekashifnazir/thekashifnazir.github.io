@@ -1401,6 +1401,30 @@ function initInnerCircuit() {
   });
 }
 
+function initVideoPrompts() {
+  const clickableVideos = document.querySelectorAll('.video-embed[data-click-prompt="true"]');
+  if (!clickableVideos.length) return;
+
+  clickableVideos.forEach((embed) => {
+    const prompt = embed.querySelector('.video-play-prompt');
+    const video = embed.querySelector('video');
+    if (!prompt || !video) return;
+
+    prompt.addEventListener('click', async () => {
+      embed.classList.add('is-activated');
+      try {
+        await video.play();
+      } catch (error) {
+        embed.classList.remove('is-activated');
+      }
+    });
+
+    video.addEventListener('play', () => {
+      embed.classList.add('is-activated');
+    }, { once: true });
+  });
+}
+
 // ============================================
 // Init
 // ============================================
@@ -1413,5 +1437,6 @@ initInnerMobileSpine();
 initSectionReveals();
 initInnerPages();
 initInnerCircuit();
+initVideoPrompts();
 initReadingProgress();
 initTransitions();

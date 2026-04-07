@@ -1,6 +1,32 @@
-<figure style="margin: 1.5rem 0;">
-  <video autoplay loop muted playsinline style="max-width: 100%; height: auto; display: block; border-radius: 8px;">
+{{- $autoplay := ne (.Get "autoplay") "false" -}}
+{{- $loop := ne (.Get "loop") "false" -}}
+{{- $muted := ne (.Get "muted") "false" -}}
+{{- $playsinline := ne (.Get "playsinline") "false" -}}
+{{- $controls := eq (.Get "controls") "true" -}}
+{{- $preload := .Get "preload" | default "metadata" -}}
+{{- $poster := .Get "poster" -}}
+{{- $showPrompt := and (not $autoplay) $controls -}}
+<figure class="post-video" style="margin: 1.5rem 0;">
+  <div class="video-embed{{ if $showPrompt }} video-embed--clickable{{ end }}"{{ if $showPrompt }} data-click-prompt="true"{{ end }}>
+  <video
+    {{ if $autoplay }}autoplay{{ end }}
+    {{ if $loop }}loop{{ end }}
+    {{ if $muted }}muted{{ end }}
+    {{ if $playsinline }}playsinline{{ end }}
+    {{ if $controls }}controls{{ end }}
+    preload="{{ $preload }}"
+    {{ with $poster }}poster="{{ . }}"{{ end }}
+    style="max-width: 100%; height: auto; display: block; border-radius: 8px;">
     <source src="{{ .Get "src" }}" type="video/mp4">
   </video>
+  {{ if $showPrompt }}
+  <button type="button" class="video-play-prompt" aria-label="Play video">
+    <span class="video-play-prompt__button" aria-hidden="true">
+      <span class="video-play-prompt__triangle"></span>
+    </span>
+    <span class="video-play-prompt__text">Click to play</span>
+  </button>
+  {{ end }}
+  </div>
   {{ with .Get "caption" }}<figcaption style="margin-top: 0.5rem; font-size: 0.875rem; color: var(--secondary, #666); text-align: center;">{{ . }}</figcaption>{{ end }}
 </figure>
