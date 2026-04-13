@@ -6,6 +6,8 @@ Kash is a Senior Technical Architect at Cloudhouse, specialising in application 
 
 ## Blog Posts
 
+- [Why I Couldn't Containerise My Home Server](https://kashifnazir.com/blog/why-i-couldnt-containerise-my-home-server/): A 2013-era i5 meets Docker, WSL, and the reality that hardware ceilings only show up when you try something new.
+- [Watching AI Learn to Play Red Light, Green Light](https://kashifnazir.com/blog/using-ai-reinforcement-learning/): Trying AI Warehouse's Red Light, Green Light simulator and watching reinforcement learning agents shift from chaos to strategy.
 - [Pilot to Production: The Gap Nobody Plans For](https://kashifnazir.com/blog/pilot-to-production-gap-nobody-plans-for/): Why the difficult part of migrations and AI rollouts is usually the jump from a supported pilot to organisation-wide adoption.
 - [The Architecture Unbuilt](https://kashifnazir.com/blog/architecture-unbuilt/): What was considered for hosting, why GitHub Pages won for now, the planned AWS migration stack, and thoughts on designing for AI agents and llms.txt.
 - [Building This Site](https://kashifnazir.com/blog/building-this-site/): How the site was built in two weeks using Hugo, two AI agents (Claude and Codex), and zero web development experience.
