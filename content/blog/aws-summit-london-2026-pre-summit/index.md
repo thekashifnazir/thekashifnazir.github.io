@@ -2,7 +2,7 @@
 title: "AWS Summit London 2026 — Pre-Summit (Tuesday)"
 date: 2026-04-21
 description: "I've never been to an AWS Summit before. Tomorrow I'm heading to ExCeL London, and I've already had to make some hard choices about how the day runs."
-images: ["/images/social/social-card-aws-summit-london-2026-pre-summit.png"]
+images: ["/images/social/social-card-aws-summit-london-2026-pre-summit-tuesday.png"]
 tags: ["aws", "cloud", "events", "ai", "vmware"]
 categories: ["Events"]
 ShowToc: true
