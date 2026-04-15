@@ -1,7 +1,7 @@
 ---
-title: "AWS Summit London 2026 — Pre-Summit (Tuesday)"
-date: 2026-04-21
-description: "I've never been to an AWS Summit before. Tomorrow I'm heading to ExCeL London, and I've already had to make some hard choices about how the day runs."
+title: "AWS Summit London 2026 — Pre-Summit"
+date: 2026-04-20
+description: "I've never been to an AWS Summit before. On Wednesday I'm heading to ExCeL London, and I've already had to make some hard choices about how the day runs."
 images: ["/images/social/social-card-aws-summit-london-2026-pre-summit-tuesday.png"]
 tags: ["aws", "cloud", "events", "ai", "vmware"]
 categories: ["Events"]
@@ -10,7 +10,7 @@ ShowReadingTime: true
 draft: false
 ---
 
-I've been to plenty of vendor events and briefings over the years but never an AWS Summit, so heading to London tomorrow for the first time I genuinely don't know what to expect. I'm planning to get there when doors open at 8am partly to beat the keynote crowds and partly because I've already had to make some hard choices about how the day runs.
+I've been to plenty of vendor events and briefings over the years but never an AWS Summit, so heading to London on Wednesday for the first time I genuinely don't know what to expect. I'm planning to get there when doors open at 8am partly to beat the keynote crowds and partly because I've already had to make some hard choices about how the day runs.
 
 {{< figure src="dlr-docklands-station.jpg" alt="DLR train arriving at a Docklands station in London" >}}
 
