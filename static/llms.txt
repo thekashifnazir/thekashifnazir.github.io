@@ -6,6 +6,7 @@ Kash is a Senior Technical Architect at Cloudhouse, specialising in application 
 
 ## Blog Posts
 
+- [AWS Summit London 2026 — Pre-Summit](https://kashifnazir.com/blog/aws-summit-london-2026-pre-summit/): First time attending an AWS Summit — session planning, why Kiro and VMware migration made the cut, and what to watch for on the day.
 - [Why I Couldn't Containerise My Home Server](https://kashifnazir.com/blog/why-i-couldnt-containerise-my-home-server/): A 2013-era i5 meets Docker, WSL, and the reality that hardware ceilings only show up when you try something new.
 - [Watching AI Learn to Play Red Light, Green Light](https://kashifnazir.com/blog/using-ai-reinforcement-learning/): Trying AI Warehouse's Red Light, Green Light simulator and watching reinforcement learning agents shift from chaos to strategy.
 - [Pilot to Production: The Gap Nobody Plans For](https://kashifnazir.com/blog/pilot-to-production-gap-nobody-plans-for/): Why the difficult part of migrations and AI rollouts is usually the jump from a supported pilot to organisation-wide adoption.
