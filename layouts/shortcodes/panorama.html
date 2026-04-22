@@ -1,0 +1,10 @@
+{{- $ratio := .Get "ratio" | default "2 / 1" -}}
+{{- $position := .Get "position" | default "50% 50%" -}}
+<figure style="margin: 1.75rem 0;">
+  <img
+    src="{{ .Get "src" }}"
+    alt="{{ .Get "alt" | default "" }}"
+    style='display:block;width:100%;aspect-ratio:{{ $ratio | safeCSS }};object-fit:cover;object-position:{{ $position | safeCSS }};'
+  >
+  {{ with .Get "caption" }}<figcaption style="padding: 0.75rem 0; font-size: 0.875rem; color: var(--secondary, #666); text-align: center;">{{ . }}</figcaption>{{ end }}
+</figure>
