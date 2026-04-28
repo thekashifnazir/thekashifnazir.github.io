@@ -2,6 +2,7 @@
 title: "Microsoft's New Outlook Took Two Years to Get Colour Categories Back"
 date: 2026-04-28
 description: "A small missing calendar rule in new Outlook shows the hidden cost of migrating users before the new client can carry their workflows."
+images: ["/images/social/social-card-microsoft-s-new-outlook-took-two-years-to-get-colour-categories-back.png"]
 tags: ["microsoft", "outlook", "migration", "productivity", "enterprise-it"]
 categories: ["Migration"]
 ShowToc: true
