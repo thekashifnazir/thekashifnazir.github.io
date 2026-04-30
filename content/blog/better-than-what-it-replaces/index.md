@@ -3,21 +3,33 @@ title: "Better Than What It Replaces"
 date: 2026-04-30
 description: "Self-service, automation, and AI testing only matter when they make the real task faster or easier for the person using them."
 tags: ["automation", "self-service", "ai-testing", "customer-experience", "product-design"]
-categories: ["AI"]
+categories: ["Operations"]
 ShowToc: true
 ShowReadingTime: true
 draft: true
 ---
 
+<!--
+Image sources:
+- self-ordering-kiosks.jpg: generated image supplied by Kashif Nazir, 2026-04-30
+- qr-ordering-failure.jpg: generated image supplied by Kashif Nazir, 2026-04-30
+- support-ticket-loop.jpg: generated image supplied by Kashif Nazir, 2026-04-30
+- ai-testing-dashboard.jpg: generated image supplied by Kashif Nazir, 2026-04-30
+-->
+
 When McDonald's replaced counter queues with big ordering screens, and Starbucks and Costa let you order through an app and just pick up, the reason those changes stuck was not only that the technology worked. It was that they were genuinely faster and easier than what they replaced, and most people who use them now would not go back.
 
 Some newer Starbucks locations have removed the counter entirely, which only makes sense if the replacement has already cleared that bar. COVID forced a lot of chains to get there properly because they had no choice but to get it right.
+
+{{< figure src="self-ordering-kiosks.jpg" alt="Customers using self-ordering kiosks in a quick-service restaurant" caption="Self-service works when it makes the normal path faster instead of harder." >}}
 
 ## When the app becomes the work
 
 I was at a Korean restaurant on holiday where every table had a QR code, and the process to order was connect to their Wi-Fi, create an account, then add your items. The website was not registering what I was adding, so I spent the time I should have been ordering troubleshooting instead.
 
 A waitress eventually came over, looked confused at what I was trying to show her on the screen, and handed me her phone to place the order through. Which meant everything after that I had to flag her down and ask for rather than use the app, and that was exactly the outcome the whole system was supposed to prevent.
+
+{{< figure src="qr-ordering-failure.jpg" alt="A restaurant diner holding up a phone beside a table QR code after an ordering problem" caption="When the ordering system becomes the problem, the old route comes back immediately." >}}
 
 The difference between those two experiences was not the technology. It was whether anyone asked "is this actually better than what it replaces, for the person using it?" before it went live.
 
@@ -31,6 +43,8 @@ I had this recently with a Udemy issue I had raised with a full list of everythi
 
 When that same pattern lands in an enterprise context and employees route around the tool because a two-minute conversation would have been faster, calling it deflection in the metrics does not change what it actually is.
 
+{{< figure src="support-ticket-loop.jpg" alt="A person reading a long support-ticket thread on a laptop" caption="A process can look efficient in the queue while still being slower for the person stuck inside it." >}}
+
 ## Measuring the wrong finish line
 
 I have been working on testing processes for AI against real applications, and the further I have dug into the results the more I have found assumptions baked in about what a pass and a fail actually look like.
@@ -38,6 +52,8 @@ I have been working on testing processes for AI against real applications, and t
 What counts as an acceptable wait? What counts as something genuinely broken? What happens when the test technically completes, but the person using the application would already have given up?
 
 It is the same question underneath. Not "did the test complete?" but "did we measure the right thing?"
+
+{{< figure src="ai-testing-dashboard.jpg" alt="A workstation with application testing results, dashboards, and a stopwatch" caption="A pass only matters if the test measured the experience people actually have." >}}
 
 ## The human standard is not complicated
 
