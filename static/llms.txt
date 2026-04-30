@@ -6,7 +6,7 @@ Kash is a Senior Technical Architect at Cloudhouse, specialising in application 
 
 ## Blog Posts
 
-- [Everyone Wants a Good Handover. Nobody Wants to Write One.](https://kashifnazir.com/blog/everyone-wants-a-good-handover/): Why useful documentation and handovers matter most when nobody has context, nobody remembers the detail, and the person who needs the answer is future you.
+- [Microsoft's New Outlook Took Two Years to Get Colour Categories Back](https://kashifnazir.com/blog/new-outlook-colour-categories/): A small missing calendar rule in new Outlook shows the hidden cost of migrating users before the new client can carry their workflows.
 - [The Ladder Didn't Break When AI Arrived](https://kashifnazir.com/blog/the-ladder-didnt-break-when-ai-arrived/): Why AI is only the latest visible wave in a longer erosion of the route from junior technical work into senior architecture roles.
 - [AWS Summit London 2026 — Post-Summit](https://kashifnazir.com/blog/aws-summit-london-2026-post-summit/): What stood out after attending AWS Summit London 2026 — the AI Builders Breakfast, the Kiro workshop, AWS Transform for VMware, and the application-layer gap that mostly stayed outside the Summit conversation.
 - [AWS Summit London 2026 — Pre-Summit](https://kashifnazir.com/blog/aws-summit-london-2026-pre-summit/): First time attending an AWS Summit — session planning, why Kiro and VMware migration made the cut, and what to watch for on the day.
