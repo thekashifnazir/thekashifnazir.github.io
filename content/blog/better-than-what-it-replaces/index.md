@@ -1,13 +1,13 @@
 ---
 title: "Better Than What It Replaces"
-date: 2026-04-30
+date: 2026-05-03
 description: "Self-service, automation, and AI testing only matter when they make the real task faster or easier for the person using them."
 images: ["/images/social/social-card-better-than-what-it-replaces.png"]
 tags: ["automation", "self-service", "ai-testing", "customer-experience", "product-design"]
 categories: ["Operations"]
 ShowToc: true
 ShowReadingTime: true
-draft: true
+draft: false
 ---
 
 <!--
