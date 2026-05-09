@@ -6,7 +6,7 @@
     <span class="codeblock-frame__filename">{{ .Get "file" }}</span>
   </div>
   <div class="codeblock-frame__body">
-    {{ .Inner }}
+    {{ .Inner | markdownify }}
   </div>
   {{ with .Get "caption" }}<figcaption class="codeblock-frame__caption">{{ . }}</figcaption>{{ end }}
 </figure>
