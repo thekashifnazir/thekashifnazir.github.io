@@ -1443,6 +1443,7 @@ function initImageLightbox() {
   const getImageHref = (img) => getImageLink(img)?.href || img.currentSrc || img.src;
   const isLightboxableImage = (img) => (
     img instanceof HTMLImageElement &&
+    postContent.contains(img) &&
     img.getAttribute('src') &&
     (!img.closest('a') || getImageLink(img)) &&
     !img.closest('.codeblock-frame, .docframe, .arch-diagram') &&
@@ -1453,11 +1454,17 @@ function initImageLightbox() {
     if (imageTarget) return imageTarget;
 
     const imageLink = target.closest('a');
-    if (!imageLink || !postContent.contains(imageLink) || !imageFilePattern.test(imageLink.getAttribute('href') || '')) {
+    if (imageLink && postContent.contains(imageLink) && imageFilePattern.test(imageLink.getAttribute('href') || '')) {
+      const linkedImage = imageLink.querySelector('img');
+      if (linkedImage) return linkedImage;
+    }
+
+    const figure = target.closest('figure');
+    if (!figure || !postContent.contains(figure) || figure.closest('.codeblock-frame, .docframe, .arch-diagram')) {
       return null;
     }
 
-    return imageLink.querySelector('img');
+    return figure.querySelector('img');
   };
 
   const images = Array.from(postContent.querySelectorAll('figure img, p > img')).filter(isLightboxableImage);
@@ -1511,6 +1518,21 @@ function initImageLightbox() {
     });
   }
 
+  function handleImageClick(event) {
+    if (!(event.target instanceof Element)) return;
+
+    const img = getEventImage(event.target);
+    if (!isLightboxableImage(img)) return;
+
+    try {
+      openLightbox(img);
+      event.preventDefault();
+      event.stopPropagation();
+    } catch (error) {
+      console.warn('Image lightbox failed; falling back to image link.', error);
+    }
+  }
+
   function closeLightbox() {
     if (lightbox.hidden) return;
     lightbox.classList.remove('is-open');
@@ -1527,6 +1549,7 @@ function initImageLightbox() {
     const imageLink = getImageLink(img);
     img.classList.add('is-lightboxable');
     if (imageLink) {
+      imageLink.classList.add('is-lightboxable-link');
       imageLink.setAttribute('aria-label', `${img.getAttribute('alt') || 'Image'}: open larger view`);
     } else {
       img.setAttribute('role', 'button');
@@ -1542,15 +1565,7 @@ function initImageLightbox() {
     });
   });
 
-  postContent.addEventListener('click', (event) => {
-    if (!(event.target instanceof Element)) return;
-
-    const img = getEventImage(event.target);
-    if (!isLightboxableImage(img)) return;
-
-    event.preventDefault();
-    openLightbox(img);
-  });
+  document.addEventListener('click', handleImageClick, { capture: true });
 
   closeButton.addEventListener('click', closeLightbox);
   lightbox.addEventListener('click', (event) => {

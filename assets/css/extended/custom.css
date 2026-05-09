@@ -1893,6 +1893,11 @@ body.loader-done .footer {
   cursor: zoom-in;
 }
 
+.post-content a.is-lightboxable-link {
+  display: block;
+  cursor: zoom-in;
+}
+
 .post-content img.is-lightboxable:focus-visible {
   outline: 2px solid var(--accent);
   outline-offset: 4px;
@@ -1914,6 +1919,10 @@ body.image-lightbox-open {
   backdrop-filter: blur(12px);
   opacity: 0;
   transition: opacity 0.18s ease;
+}
+
+.image-lightbox[hidden] {
+  display: none;
 }
 
 .image-lightbox.is-open {
