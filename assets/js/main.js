@@ -1426,14 +1426,39 @@ function initVideoPrompts() {
 }
 
 function initImageLightbox() {
-  const imageCandidates = document.querySelectorAll('.post-content figure img, .post-content p > img');
-  const images = Array.from(imageCandidates).filter((img) => (
+  const postContent = document.querySelector('.post-content');
+  if (!postContent) return;
+
+  const imageFilePattern = /\.(avif|gif|jpe?g|png|svg|webp)(?:[?#].*)?$/i;
+  const getImageLink = (img) => {
+    const link = img.closest('a');
+    if (!link || !postContent.contains(link) || !imageFilePattern.test(link.getAttribute('href') || '')) {
+      return null;
+    }
+
+    return link;
+  };
+  const getImageHref = (img) => getImageLink(img)?.href || img.currentSrc || img.src;
+  const isLightboxableImage = (img) => (
+    img instanceof HTMLImageElement &&
     img.getAttribute('src') &&
-    !img.closest('a') &&
+    (!img.closest('a') || getImageLink(img)) &&
     !img.closest('.codeblock-frame, .docframe, .arch-diagram') &&
     img.dataset.noLightbox !== 'true'
-  ));
+  );
+  const getEventImage = (target) => {
+    const imageTarget = target.closest('img');
+    if (imageTarget) return imageTarget;
 
+    const imageLink = target.closest('a');
+    if (!imageLink || !postContent.contains(imageLink) || !imageFilePattern.test(imageLink.getAttribute('href') || '')) {
+      return null;
+    }
+
+    return imageLink.querySelector('img');
+  };
+
+  const images = Array.from(postContent.querySelectorAll('figure img, p > img')).filter(isLightboxableImage);
   if (!images.length) return;
 
   const lightbox = document.createElement('div');
@@ -1467,14 +1492,14 @@ function initImageLightbox() {
   function openLightbox(img) {
     window.clearTimeout(closeTimer);
     activeTrigger = img;
-    const imageSrc = img.currentSrc || img.src;
+    const imageSrc = getImageHref(img);
     const imageCaption = getCaption(img);
 
     lightboxImage.src = imageSrc;
     lightboxImage.alt = img.getAttribute('alt') || '';
     caption.textContent = imageCaption;
     caption.hidden = !imageCaption;
-    openLink.href = img.src;
+    openLink.href = imageSrc;
 
     lightbox.hidden = false;
     document.body.classList.add('image-lightbox-open');
@@ -1497,18 +1522,32 @@ function initImageLightbox() {
   }
 
   images.forEach((img) => {
+    const imageLink = getImageLink(img);
     img.classList.add('is-lightboxable');
-    img.setAttribute('role', 'button');
-    img.setAttribute('tabindex', '0');
-    img.setAttribute('aria-label', `${img.getAttribute('alt') || 'Image'}: open larger view`);
+    if (imageLink) {
+      imageLink.setAttribute('aria-label', `${img.getAttribute('alt') || 'Image'}: open larger view`);
+    } else {
+      img.setAttribute('role', 'button');
+      img.setAttribute('tabindex', '0');
+      img.setAttribute('aria-label', `${img.getAttribute('alt') || 'Image'}: open larger view`);
+    }
 
-    img.addEventListener('click', () => openLightbox(img));
     img.addEventListener('keydown', (event) => {
       if (event.key === 'Enter' || event.key === ' ') {
         event.preventDefault();
         openLightbox(img);
       }
     });
+  });
+
+  postContent.addEventListener('click', (event) => {
+    if (!(event.target instanceof Element)) return;
+
+    const img = getEventImage(event.target);
+    if (!isLightboxableImage(img)) return;
+
+    event.preventDefault();
+    openLightbox(img);
   });
 
   closeButton.addEventListener('click', closeLightbox);
@@ -1526,6 +1565,7 @@ function initImageLightbox() {
 initLoader();
 initHero();
 initNav();
+initImageLightbox();
 initCircuit();
 initMobileSpine();
 initInnerMobileSpine();
@@ -1533,6 +1573,5 @@ initSectionReveals();
 initInnerPages();
 initInnerCircuit();
 initVideoPrompts();
-initImageLightbox();
 initReadingProgress();
 initTransitions();
