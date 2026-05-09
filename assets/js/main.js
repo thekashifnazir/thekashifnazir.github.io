@@ -807,6 +807,8 @@ function initTransitions() {
 
   // Only intercept internal same-origin links
   document.addEventListener('click', (e) => {
+    if (e.defaultPrevented) return;
+
     const anchor = e.target.closest('a');
     if (!anchor) return;
 
