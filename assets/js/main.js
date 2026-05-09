@@ -1425,6 +1425,101 @@ function initVideoPrompts() {
   });
 }
 
+function initImageLightbox() {
+  const imageCandidates = document.querySelectorAll('.post-content figure img, .post-content p > img');
+  const images = Array.from(imageCandidates).filter((img) => (
+    img.getAttribute('src') &&
+    !img.closest('a') &&
+    !img.closest('.codeblock-frame, .docframe, .arch-diagram') &&
+    img.dataset.noLightbox !== 'true'
+  ));
+
+  if (!images.length) return;
+
+  const lightbox = document.createElement('div');
+  lightbox.className = 'image-lightbox';
+  lightbox.hidden = true;
+  lightbox.innerHTML = `
+    <div class="image-lightbox__dialog" role="dialog" aria-modal="true" aria-label="Expanded image">
+      <button class="image-lightbox__close" type="button" aria-label="Close expanded image">&times;</button>
+      <img class="image-lightbox__image" alt="">
+      <div class="image-lightbox__footer">
+        <p class="image-lightbox__caption"></p>
+        <a class="image-lightbox__open" target="_blank" rel="noopener noreferrer">Open original</a>
+      </div>
+    </div>
+  `;
+  document.body.appendChild(lightbox);
+
+  const dialog = lightbox.querySelector('.image-lightbox__dialog');
+  const closeButton = lightbox.querySelector('.image-lightbox__close');
+  const lightboxImage = lightbox.querySelector('.image-lightbox__image');
+  const caption = lightbox.querySelector('.image-lightbox__caption');
+  const openLink = lightbox.querySelector('.image-lightbox__open');
+  let activeTrigger = null;
+  let closeTimer = null;
+
+  function getCaption(img) {
+    const figureCaption = img.closest('figure')?.querySelector('figcaption');
+    return figureCaption?.innerText?.trim() || img.getAttribute('alt') || '';
+  }
+
+  function openLightbox(img) {
+    window.clearTimeout(closeTimer);
+    activeTrigger = img;
+    const imageSrc = img.currentSrc || img.src;
+    const imageCaption = getCaption(img);
+
+    lightboxImage.src = imageSrc;
+    lightboxImage.alt = img.getAttribute('alt') || '';
+    caption.textContent = imageCaption;
+    caption.hidden = !imageCaption;
+    openLink.href = img.src;
+
+    lightbox.hidden = false;
+    document.body.classList.add('image-lightbox-open');
+    requestAnimationFrame(() => {
+      lightbox.classList.add('is-open');
+      closeButton.focus({ preventScroll: true });
+    });
+  }
+
+  function closeLightbox() {
+    if (lightbox.hidden) return;
+    lightbox.classList.remove('is-open');
+    document.body.classList.remove('image-lightbox-open');
+    closeTimer = window.setTimeout(() => {
+      lightbox.hidden = true;
+      lightboxImage.removeAttribute('src');
+      if (activeTrigger) activeTrigger.focus({ preventScroll: true });
+      activeTrigger = null;
+    }, 180);
+  }
+
+  images.forEach((img) => {
+    img.classList.add('is-lightboxable');
+    img.setAttribute('role', 'button');
+    img.setAttribute('tabindex', '0');
+    img.setAttribute('aria-label', `${img.getAttribute('alt') || 'Image'}: open larger view`);
+
+    img.addEventListener('click', () => openLightbox(img));
+    img.addEventListener('keydown', (event) => {
+      if (event.key === 'Enter' || event.key === ' ') {
+        event.preventDefault();
+        openLightbox(img);
+      }
+    });
+  });
+
+  closeButton.addEventListener('click', closeLightbox);
+  lightbox.addEventListener('click', (event) => {
+    if (!dialog.contains(event.target)) closeLightbox();
+  });
+  document.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape' && !lightbox.hidden) closeLightbox();
+  });
+}
+
 // ============================================
 // Init
 // ============================================
@@ -1438,5 +1533,6 @@ initSectionReveals();
 initInnerPages();
 initInnerCircuit();
 initVideoPrompts();
+initImageLightbox();
 initReadingProgress();
 initTransitions();
