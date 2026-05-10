@@ -807,6 +807,8 @@ function initTransitions() {
 
   // Only intercept internal same-origin links
   document.addEventListener('click', (e) => {
+    if (e.defaultPrevented) return;
+
     const anchor = e.target.closest('a');
     if (!anchor) return;
 
@@ -1425,12 +1427,162 @@ function initVideoPrompts() {
   });
 }
 
+function initImageLightbox() {
+  const postContent = document.querySelector('.post-content');
+  if (!postContent) return;
+
+  const imageFilePattern = /\.(avif|gif|jpe?g|png|svg|webp)(?:[?#].*)?$/i;
+  const getImageLink = (img) => {
+    const link = img.closest('a');
+    if (!link || !postContent.contains(link) || !imageFilePattern.test(link.getAttribute('href') || '')) {
+      return null;
+    }
+
+    return link;
+  };
+  const getImageHref = (img) => getImageLink(img)?.href || img.currentSrc || img.src;
+  const isLightboxableImage = (img) => (
+    img instanceof HTMLImageElement &&
+    postContent.contains(img) &&
+    img.getAttribute('src') &&
+    (!img.closest('a') || getImageLink(img)) &&
+    !img.closest('.codeblock-frame, .docframe, .arch-diagram') &&
+    img.dataset.noLightbox !== 'true'
+  );
+  const getEventImage = (target) => {
+    const imageTarget = target.closest('img');
+    if (imageTarget) return imageTarget;
+
+    const imageLink = target.closest('a');
+    if (imageLink && postContent.contains(imageLink) && imageFilePattern.test(imageLink.getAttribute('href') || '')) {
+      const linkedImage = imageLink.querySelector('img');
+      if (linkedImage) return linkedImage;
+    }
+
+    const figure = target.closest('figure');
+    if (!figure || !postContent.contains(figure) || figure.closest('.codeblock-frame, .docframe, .arch-diagram')) {
+      return null;
+    }
+
+    return figure.querySelector('img');
+  };
+
+  const images = Array.from(postContent.querySelectorAll('figure img, p > img')).filter(isLightboxableImage);
+  if (!images.length) return;
+
+  const lightbox = document.createElement('div');
+  lightbox.className = 'image-lightbox';
+  lightbox.hidden = true;
+  lightbox.innerHTML = `
+    <div class="image-lightbox__dialog" role="dialog" aria-modal="true" aria-label="Expanded image">
+      <button class="image-lightbox__close" type="button" aria-label="Close expanded image">&times;</button>
+      <img class="image-lightbox__image" alt="">
+      <div class="image-lightbox__footer">
+        <p class="image-lightbox__caption"></p>
+        <a class="image-lightbox__open" target="_blank" rel="noopener noreferrer">Open original</a>
+      </div>
+    </div>
+  `;
+  document.body.appendChild(lightbox);
+
+  const dialog = lightbox.querySelector('.image-lightbox__dialog');
+  const closeButton = lightbox.querySelector('.image-lightbox__close');
+  const lightboxImage = lightbox.querySelector('.image-lightbox__image');
+  const caption = lightbox.querySelector('.image-lightbox__caption');
+  const openLink = lightbox.querySelector('.image-lightbox__open');
+  let activeTrigger = null;
+  let closeTimer = null;
+
+  function getCaption(img) {
+    const figureCaption = img.closest('figure')?.querySelector('figcaption');
+    return figureCaption?.innerText?.trim() || img.getAttribute('alt') || '';
+  }
+
+  function openLightbox(img) {
+    window.clearTimeout(closeTimer);
+    activeTrigger = img;
+    const imageSrc = getImageHref(img);
+    const imageCaption = getCaption(img);
+
+    lightboxImage.src = imageSrc;
+    lightboxImage.alt = img.getAttribute('alt') || '';
+    caption.textContent = imageCaption;
+    caption.hidden = !imageCaption;
+    openLink.href = imageSrc;
+
+    lightbox.hidden = false;
+    document.body.classList.add('image-lightbox-open');
+    requestAnimationFrame(() => {
+      lightbox.classList.add('is-open');
+      closeButton.focus({ preventScroll: true });
+    });
+  }
+
+  function handleImageClick(event) {
+    if (!(event.target instanceof Element)) return;
+
+    const img = getEventImage(event.target);
+    if (!isLightboxableImage(img)) return;
+
+    try {
+      openLightbox(img);
+      event.preventDefault();
+      event.stopPropagation();
+    } catch (error) {
+      console.warn('Image lightbox failed; falling back to image link.', error);
+    }
+  }
+
+  function closeLightbox() {
+    if (lightbox.hidden) return;
+    lightbox.classList.remove('is-open');
+    document.body.classList.remove('image-lightbox-open');
+    closeTimer = window.setTimeout(() => {
+      lightbox.hidden = true;
+      lightboxImage.removeAttribute('src');
+      if (activeTrigger) activeTrigger.focus({ preventScroll: true });
+      activeTrigger = null;
+    }, 180);
+  }
+
+  images.forEach((img) => {
+    const imageLink = getImageLink(img);
+    img.classList.add('is-lightboxable');
+    if (imageLink) {
+      imageLink.classList.add('is-lightboxable-link');
+      imageLink.setAttribute('aria-label', `${img.getAttribute('alt') || 'Image'}: open larger view`);
+    } else {
+      img.setAttribute('role', 'button');
+      img.setAttribute('tabindex', '0');
+      img.setAttribute('aria-label', `${img.getAttribute('alt') || 'Image'}: open larger view`);
+    }
+
+    img.addEventListener('keydown', (event) => {
+      if (event.key === 'Enter' || event.key === ' ') {
+        event.preventDefault();
+        openLightbox(img);
+      }
+    });
+  });
+
+  document.addEventListener('click', handleImageClick, { capture: true });
+
+  closeButton.addEventListener('click', closeLightbox);
+  lightbox.addEventListener('click', (event) => {
+    if (!dialog.contains(event.target)) closeLightbox();
+  });
+  document.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape' && !lightbox.hidden) closeLightbox();
+  });
+}
+
 // ============================================
 // Init
 // ============================================
 initLoader();
 initHero();
 initNav();
+initImageLightbox();
 initCircuit();
 initMobileSpine();
 initInnerMobileSpine();
