@@ -2,6 +2,7 @@
 title: "What Two AIs Saw in My Study"
 date: 2026-05-10
 description: "Asking ChatGPT and Claude the same vision-led room question showed a difference that benchmarks do not always catch: what each model thinks the answer is for."
+url: "/blog/What-Two-AIs-Saw-in-My-Study"
 images: ["/images/social/social-card-what-two-ais-saw-in-my-study.png"]
 tags: ["ai", "chatgpt", "claude", "multimodal-ai", "productivity"]
 categories: ["AI"]
