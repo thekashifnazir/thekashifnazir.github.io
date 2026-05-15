@@ -3516,6 +3516,63 @@ body.image-lightbox-open {
   transition: opacity 0.35s ease, transform 0.35s ease;
 }
 
+/* Inline SVG reveal diagrams */
+.reveal-svg {
+  margin: 2rem 0;
+}
+
+.reveal-svg__canvas {
+  overflow: hidden;
+  padding: clamp(1rem, 2vw, 1.5rem);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: var(--bg);
+}
+
+.reveal-svg__canvas svg {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+.reveal-svg--ready .reveal-svg__step {
+  opacity: 0 !important;
+  transform: translateY(10px);
+  transform-box: fill-box;
+  transform-origin: center;
+  transition:
+    opacity 0.38s ease var(--reveal-delay, 0ms),
+    transform 0.38s ease var(--reveal-delay, 0ms);
+}
+
+.reveal-svg--visible .reveal-svg__step {
+  opacity: 1 !important;
+  transform: translateY(0);
+}
+
+.reveal-svg figcaption {
+  margin-top: 0.75rem;
+  color: var(--secondary);
+  font-size: 0.875rem;
+  line-height: 1.5;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .reveal-svg__canvas {
+    padding: 0.75rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal-svg--ready .reveal-svg__step {
+    opacity: 1 !important;
+    transform: none;
+    transition: none;
+  }
+}
+
 /* Mobile: stack lanes vertically */
 @media (max-width: 768px) {
   .arch-diagram {

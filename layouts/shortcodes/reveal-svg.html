@@ -1,0 +1,59 @@
+{{- $src := .Get "src" -}}
+{{- $caption := .Get "caption" -}}
+{{- $alt := .Get "alt" | default "" -}}
+{{- $class := .Get "class" | default "" -}}
+{{- $resource := .Page.Resources.GetMatch $src -}}
+{{- if not $resource -}}
+  {{- errorf "reveal-svg shortcode could not find %q in %s" $src .Page.File.Path -}}
+{{- end -}}
+{{- $uid := printf "reveal-svg-%d" .Ordinal -}}
+{{- $svg := $resource.Content -}}
+{{- $svg = replaceRE `id="arrow"` (printf `id="%s-arrow"` $uid) $svg -}}
+{{- $svg = replaceRE `url\(#arrow\)` (printf `url(#%s-arrow)` $uid) $svg -}}
+
+<figure class="reveal-svg {{ $class }}"{{ with $alt }} aria-label="{{ . }}"{{ end }}>
+  <div class="reveal-svg__canvas" data-reveal-svg>
+    {{ $svg | safeHTML }}
+  </div>
+  {{ with $caption }}<figcaption>{{ . | markdownify }}</figcaption>{{ end }}
+</figure>
+
+<script>
+(function() {
+  var figure = document.currentScript.previousElementSibling;
+  if (!figure) return;
+
+  var canvas = figure.querySelector('[data-reveal-svg]');
+  var svg = canvas && canvas.querySelector('svg');
+  if (!canvas || !svg) return;
+
+  var steps = Array.prototype.slice.call(svg.children).filter(function(el) {
+    return el.tagName && el.tagName.toLowerCase() === 'g';
+  });
+
+  if (!steps.length) return;
+
+  steps.forEach(function(el, index) {
+    el.classList.add('reveal-svg__step');
+    el.style.setProperty('--reveal-delay', (index * 95) + 'ms');
+  });
+
+  canvas.classList.add('reveal-svg--ready');
+
+  if (window.matchMedia('(prefers-reduced-motion: reduce)').matches || typeof IntersectionObserver === 'undefined') {
+    canvas.classList.add('reveal-svg--visible');
+    return;
+  }
+
+  var observer = new IntersectionObserver(function(entries) {
+    entries.forEach(function(entry) {
+      if (entry.isIntersecting) {
+        canvas.classList.add('reveal-svg--visible');
+        observer.disconnect();
+      }
+    });
+  }, { threshold: 0.2 });
+
+  observer.observe(canvas);
+})();
+</script>
