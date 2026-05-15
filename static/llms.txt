@@ -6,6 +6,7 @@ Kash is a Senior Technical Architect at Cloudhouse, specialising in application 
 
 ## Blog Posts
 
+- [Back on Windows With Mac Habits](https://kashifnazir.com/blog/windows-with-mac-habits/): A week back on an old Windows laptop showed what Windows 11 still gets right, what still gets in the way, and how much macOS muscle memory has started to stick.
 - [What Two AIs Saw in My Study](https://kashifnazir.com/blog/What-Two-AIs-Saw-in-My-Study): Asking ChatGPT and Claude the same vision-led room question showed a difference that benchmarks do not always catch: what each model thinks the answer is for.
 - [What I Stopped Fighting on the SA Pro Recert](https://kashifnazir.com/blog/what-i-stopped-fighting-on-the-sa-pro-recert/): Moving AWS recert notes from OneNote to Notion, using Claude projects for dense study notes, and where the setup paid off on SA Pro weak spots.
 - [Better Than What It Replaces](https://kashifnazir.com/blog/better-than-what-it-replaces/): Why self-service, automation, and AI testing only matter when they make the real task faster or easier for the person using them.
