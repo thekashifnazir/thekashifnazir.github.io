@@ -78,9 +78,19 @@ if (typeof ctx.roundRect !== "function") {
 
 renderCard(canvas, card);
 
-const outDir = path.resolve(__dirname, "..", "static", "images", "social");
-fs.mkdirSync(outDir, { recursive: true });
-const outPath = path.join(outDir, `social-card-${slug}.png`);
+// Write to the path the post already references via `images:`. That frontmatter
+// is the source of truth for the card's URL (baked into og:image tags), and it
+// is not always slug-based on older posts. New posts get social-card-{slug}.png
+// from the archetype, so the two coincide; the slug name is the fallback only
+// when a post has no usable images: entry.
+const repoRoot = path.resolve(__dirname, "..");
+const imageRef = Array.isArray(data.images) ? data.images[0] : null;
+const relOut =
+  typeof imageRef === "string" && imageRef.startsWith("/images/social/") && imageRef.endsWith(".png")
+    ? path.join("static", imageRef)
+    : path.join("static", "images", "social", `social-card-${slug}.png`);
+const outPath = path.join(repoRoot, relOut);
+fs.mkdirSync(path.dirname(outPath), { recursive: true });
 fs.writeFileSync(outPath, canvas.toBuffer("image/png"));
 
 console.log(`generate-card: wrote ${path.relative(process.cwd(), outPath)} (tag="${card.tag}")`);

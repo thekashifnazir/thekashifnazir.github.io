@@ -53,8 +53,10 @@ seeded from the post's slug + title so the same post always produces the same ca
 Two ways to run it:
 
 - **CI (canonical):** `node scripts/generate-card.js content/blog/{slug}/index.md`
-  Writes `static/images/social/social-card-{slug}.png`. This is what the GitHub
-  Action runs on every push to a `posts/draft-*` branch.
+  Writes to the path the post references via its `images:` frontmatter (the
+  archetype sets this to `/images/social/social-card-{slug}.png`, so new posts
+  are slug-based; older posts keep their existing card filename). This is what
+  the GitHub Action runs on every push to a `posts/draft-*` branch.
 - **Manual (React):** an in-browser generator (lives outside this repo) is for
   fiddling with copy and previewing variations. Do not let it diverge from the
   Node version — both must call the same `scripts/lib/render-card.js`.
