@@ -1,0 +1,93 @@
+name: social-card
+
+# Regenerate social cards for draft post branches and commit them back so the
+# PR (and its preview) shows the real card. Deterministic output means only
+# genuinely changed cards produce a diff, so this is a no-op for untouched posts.
+on:
+  push:
+    branches:
+      - "posts/draft-*"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: social-card-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout (full history)
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      # node-canvas ships prebuilt binaries for linux-x64; these system libs are
+      # a safety net in case it falls back to building from source.
+      - name: Install canvas build deps
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libcairo2-dev libpango1.0-dev libjpeg-dev libgif-dev librsvg2-dev
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Determine posts needing a card
+        id: posts
+        run: |
+          set -euo pipefail
+          git fetch origin "${{ github.event.repository.default_branch }}" --depth=1 || true
+          base="origin/${{ github.event.repository.default_branch }}"
+
+          # Posts whose index.md changed on this branch vs the default branch.
+          changed=$(git diff --name-only "$base"...HEAD -- 'content/blog/*/index.md' || true)
+
+          # Posts that have no rendered card yet.
+          missing=""
+          for md in content/blog/*/index.md; do
+            [ -e "$md" ] || continue
+            slug=$(basename "$(dirname "$md")")
+            png="static/images/social/social-card-${slug}.png"
+            if [ ! -f "$png" ]; then
+              missing="${missing}${md}"$'\n'
+            fi
+          done
+
+          targets=$(printf '%s\n%s\n' "$changed" "$missing" | sed '/^$/d' | sort -u)
+          {
+            echo 'list<<EOF'
+            echo "$targets"
+            echo 'EOF'
+          } >> "$GITHUB_OUTPUT"
+          echo "Targets:"; echo "$targets"
+
+      - name: Generate cards
+        if: steps.posts.outputs.list != ''
+        run: |
+          set -euo pipefail
+          while IFS= read -r md; do
+            [ -n "$md" ] || continue
+            echo "Rendering card for $md"
+            node scripts/generate-card.js "$md"
+          done <<< "${{ steps.posts.outputs.list }}"
+
+      - name: Commit regenerated cards
+        run: |
+          set -euo pipefail
+          if [ -z "$(git status --porcelain static/images/social)" ]; then
+            echo "No card changes to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add static/images/social
+          git commit -m "chore: regenerate social cards [skip ci]"
+          git push origin HEAD:"${{ github.ref_name }}"
