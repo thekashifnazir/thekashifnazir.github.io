@@ -7,13 +7,17 @@ Public repo — assume anything committed here is visible.
 
 - `content/blog/{slug}/index.md` — each post is a page bundle (folder, not flat file)
 - `content/blog/{slug}/*.{png,jpg,webp}` — inline post images, sourced manually
-- `static/images/social/social-card-{slug}.png` — OG card, 1200×630, generated
-  (do not hand-edit); wired into the post via the `images:` frontmatter key
-- `static/images/social/site-default.png` — fallback OG card for non-post pages
+- `static/images/social/social-card-{slug}.png` — per-post OG card, 1200×630,
+  generated (do not hand-edit); wired into the post via the `images:` frontmatter key
+- `static/images/social/social-card-kashif-nazir.png` — About page OG card
+- `static/images/social/social-card-kashif-nazir-site.png` — site-wide default OG
+  card (set in `hugo.toml`); this and the About card are produced by `generate-site-cards.js`
 - `layouts/`, `assets/`, `themes/PaperMod/` — theme and overrides
-- `scripts/generate-card.js` — Node CLI that renders the social card for a post
-- `scripts/lib/render-card.js` — pure rendering logic, shared with the React generator
-- `scripts/fonts/` — vendored Liberation Serif/Sans (SIL OFL) used by the renderer
+- `scripts/generate-card.js` — Node CLI that renders a post's social card
+- `scripts/generate-site-cards.js` — renders the About and site-default cards
+- `scripts/lib/render-card.js` — pure rendering logic, shared with the browser generator
+- `scripts/lib/node-render.js` — Node-side font registration + render helper
+- `scripts/fonts/` — vendored Gelasio (Georgia substitute) + Liberation Sans (SIL OFL)
 
 ## Frontmatter schema (new posts)
 
@@ -21,12 +25,12 @@ Public repo — assume anything committed here is visible.
 ---
 title: "Post title"
 date: 2026-05-24
-draft: true
 description: "One-sentence summary for search and OG."
 images: ["/images/social/social-card-{slug}.png"]
 tags: ["topic", "topic"]
 categories: ["Section"]
 ShowToc: true
+draft: true
 ---
 ```
 
@@ -66,8 +70,8 @@ what ships to the repo.
 
 ## What not to do
 
-- Do not write content here. Posts arrive pre-written from outside the repo.
-  Your job is to scaffold, source images, regenerate cards, and open PRs.
+- Don't author post prose here — this repo is for publishing mechanics:
+  scaffolding the bundle, sourcing images, generating cards, opening PRs.
 - Do not edit `themes/PaperMod/` directly — override in `layouts/` instead.
 - Do not commit anything with `draft: false` outside a deliberate publish step.
 - Do not mention or reference any external workflow, project, or skill in
