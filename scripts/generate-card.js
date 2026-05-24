@@ -9,9 +9,12 @@
 //
 // Fonts: the shared renderer asks for "Georgia, serif" (titles) and
 // "sans-serif" (tag/byline/footer). Runners do not ship Georgia, so we vendor
-// Liberation Serif/Sans (metric-compatible, SIL OFL — see scripts/fonts/LICENSE)
-// and register them under those exact family names. This keeps card output
-// identical in CI and locally, independent of host fonts.
+// substitutes (both SIL OFL — see scripts/fonts/) and register them under those
+// exact family names, keeping output identical in CI and locally:
+//   - Gelasio: a metric- and weight-compatible Georgia replacement, so titles
+//     match the heavier Georgia weight used by the browser generator (a Times-
+//     like serif would render too thin).
+//   - Liberation Sans: Arial-compatible, for the tag/byline/footer.
 
 const fs = require("fs");
 const path = require("path");
@@ -19,7 +22,7 @@ const matter = require("gray-matter");
 const { createCanvas, registerFont } = require("canvas");
 
 const FONT_DIR = path.join(__dirname, "fonts");
-registerFont(path.join(FONT_DIR, "LiberationSerif-Regular.ttf"), { family: "Georgia" });
+registerFont(path.join(FONT_DIR, "Gelasio.ttf"), { family: "Georgia" });
 registerFont(path.join(FONT_DIR, "LiberationSans-Regular.ttf"), { family: "sans-serif", weight: "normal" });
 registerFont(path.join(FONT_DIR, "LiberationSans-Bold.ttf"), { family: "sans-serif", weight: "bold" });
 

@@ -15,9 +15,9 @@ const P = {
   tagText: "#8A7A6A",
   tagBorder: "#D8CFC4",
   muted: "#9A8A7A",
-  trace: "rgba(196,98,58,0.07)",
-  node: "rgba(196,98,58,0.12)",
-  nodeStroke: "rgba(196,98,58,0.20)",
+  trace: "rgba(196,98,58,0.16)",
+  node: "rgba(196,98,58,0.24)",
+  nodeStroke: "rgba(196,98,58,0.38)",
 };
 
 function mulberry32(seed) {
