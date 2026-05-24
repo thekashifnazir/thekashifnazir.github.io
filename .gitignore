@@ -6,9 +6,9 @@ resources/
 # Node
 node_modules/
 
-# Claude Code
-.claude/
-CLAUDE.md
+# Claude Code (local settings stay private; committed config is tracked)
+.claude/*
+!.claude/commands/
 
 # macOS
 .DS_Store
