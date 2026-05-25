@@ -1,4 +1,4 @@
-Scaffold a new post on a draft branch.
+Scaffold a publish-ready post branch.
 
 Steps:
 1. Ask the user for the post title and a one-sentence description.
@@ -7,10 +7,9 @@ Steps:
 3. Ask separately: "What topic tags apply?" (multiple, lowercase-hyphenated).
    Ask for the markdown body if not provided.
 4. Generate a slug from the title (lowercase, hyphens, no punctuation).
-5. Create branch named EXACTLY `posts/draft-{slug}` from `main`.
+5. Create branch named EXACTLY `content/{slug}` from `main`.
    Do not use the default `claude/` prefix. Do not add any other prefix or suffix.
-   This is the repo convention and branches matching `posts/draft-*` are
-   excluded from production deploys.
+   This is the repo convention for publish-ready post work.
 6. After creating the branch, output the exact branch name to the conversation
    so the user can verify the prefix is correct before proceeding.
 7. Create directory `content/blog/{slug}/`.
@@ -19,7 +18,7 @@ Steps:
    ---
    title: "{title}"
    date: {today}
-   draft: true
+   draft: false
    description: "{description}"
    images: ["/images/social/social-card-{slug}.png"]
    tags: ["{tag1}", "{tag2}"]
@@ -37,7 +36,7 @@ Steps:
    Attach them as a single comment on the PR (not committed to the branch).
 11. Commit `content/blog/{slug}/index.md` and
     `static/images/social/social-card-{slug}.png`, push the branch, and open a
-    **draft** PR titled "Draft: {title}" using `.github/pull_request_template.md`
-    with a body that includes the Cloudflare preview URL placeholder and a
-    checklist (hero image picked, social card generated, final read).
+    ready PR titled "{title}" using `.github/pull_request_template.md` with a
+    body that includes the Cloudflare preview URL placeholder and a checklist
+    (hero image picked, social card generated, final read).
 12. Reply with the PR URL and the branch name.

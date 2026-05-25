@@ -6,5 +6,5 @@ images: ["/images/social/social-card-{{ .File.ContentBaseName }}.png"]
 tags: []
 categories: []
 ShowToc: true
-draft: true
+draft: false
 ---
