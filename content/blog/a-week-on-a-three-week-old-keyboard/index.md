@@ -15,6 +15,7 @@ Image sources:
 - a-week-on-a-three-week-old-keyboard-hero.webp: generated image supplied by Kashif Nazir, 2026-05-25
 - a-week-on-a-three-week-old-keyboard-voice-processing.png: diagram supplied by Kashif Nazir, 2026-05-25
 - a-week-on-a-three-week-old-keyboard-inline-01.webp: Lerone Pieters / Pexels, https://www.pexels.com/photo/a-person-walking-on-the-street-while-using-mobile-phone-9471917/
+- a-week-on-a-three-week-old-keyboard-swipe-keyboard.webp: generated image supplied by Kashif Nazir, 2026-05-25
 -->
 
 {{< figure src="assets/a-week-on-a-three-week-old-keyboard-hero.webp" alt="Composite editorial image showing a smartphone voice keyboard, desk notes, street phone use, an empty office, and touch typing" caption="A week with a voice-first keyboard still came down to where voice worked and where typing took over." >}}
@@ -30,6 +31,8 @@ The wind in London is what tells you voice-first has a ceiling. You cannot dicta
 {{< figure src="assets/a-week-on-a-three-week-old-keyboard-inline-01.webp" alt="A person walking across a wet city street while holding a smartphone" caption="Voice-first input has a ceiling as soon as the real world gets noisy." >}}
 
 So the week was mostly about the keyboard underneath, and that is where the friction was. Swipe input worked reasonably well for something that is still learning my word patterns, and the three suggestions it offered were mostly the right ones, so it was not fighting me on accuracy. What it was missing were the things I have as muscle memory from the Samsung keyboard, the punctuation row above the letters being the obvious one, and it felt laggy when I was typing fast. I had moved off SwiftKey to the Samsung keyboard when I got the S24 Plus, on the assumption Samsung's own one would tie in better with the phone, so the comparison in my head was Samsung, and Yaps was not there yet on the typing side. The on-device processing was the reason I kept going with it through that, because with the Samsung keyboard I cannot actually tell whether something I type is staying on the phone or being sent somewhere, and with this there is nothing to send it to.
+
+{{< figure src="assets/a-week-on-a-three-week-old-keyboard-swipe-keyboard.webp" alt="A thumb swiping across a dark mobile keyboard on a smartphone" caption="Once voice was not available, the whole test came down to how the keyboard felt under normal typing." >}}
 
 I fed all of this back to the person who built it, partly because it is a three-week-old app and that feedback is worth more now than later. There were bugs, and they were the kind you get on a new app in early setup. Pressing X on a dictation discarded the whole thing with no warning, and I lost a full conversation that way before I understood that is what X did. At one point the keyboard did not appear at all when I was trying to write a calendar note, and the only thing that fixed it was switching the app's battery setting from optimised to unrestricted, which I have had to do with other new apps before and is not unique to this one. Both of those happened just after I had installed it, so some of it may have been the phone still settling.
 
