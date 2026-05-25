@@ -55,6 +55,16 @@ jobs:
       - name: Verify Hugo installation
         run: hugo version
 
+      - name: Verify posts are publishable
+        run: |
+          set -euo pipefail
+          drafts="$(grep -RIl '^draft:[[:space:]]*true[[:space:]]*$' content/blog --include='index.md' || true)"
+          if [ -n "$drafts" ]; then
+            echo "::error::Blog posts on main must use draft: false so they publish."
+            printf '%s\n' "$drafts"
+            exit 1
+          fi
+
       - name: Build the site
         run: |
           hugo build \

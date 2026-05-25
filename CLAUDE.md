@@ -30,7 +30,7 @@ images: ["/images/social/social-card-{slug}.png"]
 tags: ["topic", "topic"]
 categories: ["Section"]
 ShowToc: true
-draft: true
+draft: false
 ---
 ```
 
@@ -39,15 +39,15 @@ The social card generator reads `categories[0]` (preferred) or `tags[0]`
 required. The byline defaults to "Kashif Nazir"; add an optional `subtitle:`
 field only if a post needs to override it.
 
-`draft: true` is the default. Posts only go live when this is flipped to `false`
-on `main`. Never push `draft: false` to a branch without intending to ship.
+`draft: false` is the default for new posts. Post PRs are publish-ready, and the
+post goes live when the PR is merged to `main`.
 
 ## Branch and PR conventions
 
-- Never commit posts directly to `main`. Always work on `posts/draft-{slug}`.
-- Open the PR as a **draft PR**. Mark ready for review only when the post is final.
+- Never commit posts directly to `main`. Always work on `content/{slug}`.
+- Open a normal ready PR.
 - One post per branch. Don't bundle multiple posts.
-- Branches under `posts/draft-*` are excluded from production deploys.
+- Merge only when the post is final and intended to publish.
 
 ## The social card generator
 
@@ -73,6 +73,6 @@ what ships to the repo.
 - Don't author post prose here — this repo is for publishing mechanics:
   scaffolding the bundle, sourcing images, generating cards, opening PRs.
 - Do not edit `themes/PaperMod/` directly — override in `layouts/` instead.
-- Do not commit anything with `draft: false` outside a deliberate publish step.
+- Keep new post frontmatter publishable with `draft: false`.
 - Do not mention or reference any external workflow, project, or skill in
   commit messages, PR descriptions, or files. Keep the repo self-contained.
