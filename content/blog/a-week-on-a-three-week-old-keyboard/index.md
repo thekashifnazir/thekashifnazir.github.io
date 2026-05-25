@@ -13,12 +13,15 @@ draft: true
 <!--
 Image sources:
 - a-week-on-a-three-week-old-keyboard-hero.webp: generated image supplied by Kashif Nazir, 2026-05-25
+- a-week-on-a-three-week-old-keyboard-voice-processing.png: diagram supplied by Kashif Nazir, 2026-05-25
 - a-week-on-a-three-week-old-keyboard-inline-01.webp: Lerone Pieters / Pexels, https://www.pexels.com/photo/a-person-walking-on-the-street-while-using-mobile-phone-9471917/
 -->
 
 {{< figure src="assets/a-week-on-a-three-week-old-keyboard-hero.webp" alt="Composite editorial image showing a smartphone voice keyboard, desk notes, street phone use, an empty office, and touch typing" caption="A week with a voice-first keyboard still came down to where voice worked and where typing took over." >}}
 
 Most voice typing keyboards either transcribe everything you say and leave you to tidy it up, or they do the cleanup in the cloud. The interesting fork is the one that does the cleanup on the device, where the audio never leaves the phone and there is nothing on the other end to send it to. Yaps is one of the few that takes that fork, it is about three weeks old, it was built by one person, and I used it as my only keyboard for a week to see what living with it was actually like.
+
+{{< figure src="assets/a-week-on-a-three-week-old-keyboard-voice-processing.png" alt="Diagram comparing on-device voice processing with cloud voice processing" caption="The privacy difference is where the cleanup happens: on the phone, or after audio leaves for a server." >}}
 
 The first time it earned its place was a long rambling note I dictated at home, the kind of thing I would normally type out badly and fix afterwards, and it came back so close to right that I only changed a word here and there. It also understood my Brummie accent, which Microsoft Teams used to get wrong often enough that I noticed it when we first rolled Teams out at work. Accent is the thing most voice tools quietly fail on and do not tell you they are failing on, so getting a clean pass on a long unstructured note in my actual voice was the moment I started taking it seriously.
 
