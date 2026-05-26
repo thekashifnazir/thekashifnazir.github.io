@@ -6,6 +6,8 @@ Kash is a Senior Technical Architect at Cloudhouse, specialising in application 
 
 ## Blog Posts
 
+- [A DR Plan Is a Hypothesis You've Never Tested](https://kashifnazir.com/blog/a-dr-plan-is-a-hypothesis-youve-never-tested/): A failed backup story about why disaster recovery plans, fault injection, and restore tests only matter once someone has proved the recovery path works.
+- [A Week on a Three-Week-Old Keyboard](https://kashifnazir.com/blog/a-week-on-a-three-week-old-keyboard/): A week with Yaps showed where on-device voice typing works, where the real world gets in the way, and how quickly a three-week-old keyboard can improve.
 - [Back on Windows With Mac Habits](https://kashifnazir.com/blog/windows-with-mac-habits/): A week back on an old Windows laptop showed what Windows 11 still gets right, what still gets in the way, and how much macOS muscle memory has started to stick.
 - [The Service Account Problem Has a New Name](https://kashifnazir.com/blog/the-service-account-problem-has-a-new-name/): Why AI agent identity is being treated as a new governance problem while many enterprises still carry the same unresolved service-account hygiene underneath it.
 - [What Two AIs Saw in My Study](https://kashifnazir.com/blog/What-Two-AIs-Saw-in-My-Study): Asking ChatGPT and Claude the same vision-led room question showed a difference that benchmarks do not always catch: what each model thinks the answer is for.
