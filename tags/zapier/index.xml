@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Zapier on Kashif Nazir</title>
+    <link>https://kashifnazir.com/tags/zapier/</link>
+    <description>Recent content in Zapier on Kashif Nazir</description>
+    <image>
+      <title>Kashif Nazir</title>
+      <url>https://kashifnazir.com/images/social/social-card-kashif-nazir-site.png</url>
+      <link>https://kashifnazir.com/images/social/social-card-kashif-nazir-site.png</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Fri, 29 May 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://kashifnazir.com/tags/zapier/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Automation Keeps Hitting the Same Wall</title>
+      <link>https://kashifnazir.com/blog/automation-keeps-hitting-the-same-wall/</link>
+      <pubDate>Fri, 29 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://kashifnazir.com/blog/automation-keeps-hitting-the-same-wall/</guid>
+      <description>Zapier, RPA, and AI agents keep running into the same contract gap between orchestration tools and applications that were not built to be automated cleanly.</description>
+    </item>
+  </channel>
+</rss>

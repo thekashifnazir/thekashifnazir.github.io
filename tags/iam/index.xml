@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Iam on Kashif Nazir</title>
+    <link>https://kashifnazir.com/tags/iam/</link>
+    <description>Recent content in Iam on Kashif Nazir</description>
+    <image>
+      <title>Kashif Nazir</title>
+      <url>https://kashifnazir.com/images/social/social-card-kashif-nazir-site.png</url>
+      <link>https://kashifnazir.com/images/social/social-card-kashif-nazir-site.png</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Fri, 15 May 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://kashifnazir.com/tags/iam/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Service Account Problem Has a New Name</title>
+      <link>https://kashifnazir.com/blog/the-service-account-problem-has-a-new-name/</link>
+      <pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://kashifnazir.com/blog/the-service-account-problem-has-a-new-name/</guid>
+      <description>AI agent identity is being treated as a new governance problem, but most enterprises are still carrying the same unresolved service-account hygiene underneath it.</description>
+    </item>
+  </channel>
+</rss>

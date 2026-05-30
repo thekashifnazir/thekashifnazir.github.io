@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Ai on Kashif Nazir</title>
+    <link>https://kashifnazir.com/tags/ai/</link>
+    <description>Recent content in Ai on Kashif Nazir</description>
+    <image>
+      <title>Kashif Nazir</title>
+      <url>https://kashifnazir.com/images/social/social-card-kashif-nazir-site.png</url>
+      <link>https://kashifnazir.com/images/social/social-card-kashif-nazir-site.png</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Sun, 10 May 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://kashifnazir.com/tags/ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>What Two AIs Saw in My Study</title>
+      <link>https://kashifnazir.com/blog/What-Two-AIs-Saw-in-My-Study/</link>
+      <pubDate>Sun, 10 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://kashifnazir.com/blog/What-Two-AIs-Saw-in-My-Study/</guid>
+      <description>Asking ChatGPT and Claude the same vision-led room question showed a difference that benchmarks do not always catch: what each model thinks the answer is for.</description>
+    </item>
+    <item>
+      <title>What I Stopped Fighting on the SA Pro Recert</title>
+      <link>https://kashifnazir.com/blog/what-i-stopped-fighting-on-the-sa-pro-recert/</link>
+      <pubDate>Sat, 09 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://kashifnazir.com/blog/what-i-stopped-fighting-on-the-sa-pro-recert/</guid>
+      <description>Moving AWS recert notes from OneNote to Notion, using Claude projects for dense study notes, and where the setup paid off on SA Pro weak spots.</description>
+    </item>
+    <item>
+      <title>The Ladder Didn&#39;t Break When AI Arrived</title>
+      <link>https://kashifnazir.com/blog/the-ladder-didnt-break-when-ai-arrived/</link>
+      <pubDate>Sat, 25 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://kashifnazir.com/blog/the-ladder-didnt-break-when-ai-arrived/</guid>
+      <description>AI is eating some junior work, but the route into architecture had already been narrowed by cloud, specialisation, and the loss of accidental breadth.</description>
+    </item>
+    <item>
+      <title>AWS Summit London 2026 — Post-Summit</title>
+      <link>https://kashifnazir.com/blog/aws-summit-london-2026-post-summit/</link>
+      <pubDate>Wed, 22 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://kashifnazir.com/blog/aws-summit-london-2026-post-summit/</guid>
+      <description>The AI Builders Breakfast ended up being the most useful part of the day, and it sharpened the same question I arrived with: where the application layer fits in the AWS Summit conversation.</description>
+    </item>
+    <item>
+      <title>AWS Summit London 2026 — Pre-Summit</title>
+      <link>https://kashifnazir.com/blog/aws-summit-london-2026-pre-summit/</link>
+      <pubDate>Mon, 20 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://kashifnazir.com/blog/aws-summit-london-2026-pre-summit/</guid>
+      <description>I&amp;#39;ve never been to an AWS Summit before. On Wednesday I&amp;#39;m heading to ExCeL London, and I&amp;#39;ve already had to make some hard choices about how the day runs.</description>
+    </item>
+    <item>
+      <title>Watching AI Learn to Play Red Light, Green Light</title>
+      <link>https://kashifnazir.com/blog/using-ai-reinforcement-learning/</link>
+      <pubDate>Tue, 07 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://kashifnazir.com/blog/using-ai-reinforcement-learning/</guid>
+      <description>Trying AI Warehouse&amp;#39;s Red Light, Green Light simulator and watching reinforcement learning agents shift from chaos to strategy.</description>
+    </item>
+    <item>
+      <title>Pilot to Production: The Gap Nobody Plans For</title>
+      <link>https://kashifnazir.com/blog/pilot-to-production-gap-nobody-plans-for/</link>
+      <pubDate>Sat, 04 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://kashifnazir.com/blog/pilot-to-production-gap-nobody-plans-for/</guid>
+      <description>Pilots get support, rollouts get a prayer. Why OS migrations and AI tool rollouts fail in the same human ways.</description>
+    </item>
+    <item>
+      <title>AI for AWS Certs</title>
+      <link>https://kashifnazir.com/blog/ai-for-aws-certs/</link>
+      <pubDate>Tue, 24 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://kashifnazir.com/blog/ai-for-aws-certs/</guid>
+      <description>I built two custom GPTs to help study for the AWS AI Practitioner exam. The note-creation one ate more time than it saved. The coaching one was worth keeping.</description>
+    </item>
+    <item>
+      <title>The Architecture Unbuilt</title>
+      <link>https://kashifnazir.com/blog/architecture-unbuilt/</link>
+      <pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://kashifnazir.com/blog/architecture-unbuilt/</guid>
+      <description>There are a lot of ways to build a personal site. I went with the simplest one. Here&amp;#39;s what I considered, what I&amp;#39;m planning to build later, and some stuff about AI agents that I didn&amp;#39;t expect to care about.</description>
+    </item>
+    <item>
+      <title>Building This Site</title>
+      <link>https://kashifnazir.com/blog/building-this-site/</link>
+      <pubDate>Sun, 22 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://kashifnazir.com/blog/building-this-site/</guid>
+      <description>How I built kashifnazir.com in two weeks using Hugo, two AI agents, and zero web development experience.</description>
+    </item>
+    <item>
+      <title>Building kashifnazir.com</title>
+      <link>https://kashifnazir.com/projects/site-build-log/</link>
+      <pubDate>Mon, 09 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://kashifnazir.com/projects/site-build-log/</guid>
+      <description>A short overview of the first public build of kashifnazir.com and the writing behind it.</description>
+    </item>
+  </channel>
+</rss>

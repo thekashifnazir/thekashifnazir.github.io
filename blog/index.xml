@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Blog on Kashif Nazir</title>
+    <link>https://kashifnazir.com/blog/</link>
+    <description>Recent content in Blog on Kashif Nazir</description>
+    <image>
+      <title>Kashif Nazir</title>
+      <url>https://kashifnazir.com/images/social/social-card-kashif-nazir-site.png</url>
+      <link>https://kashifnazir.com/images/social/social-card-kashif-nazir-site.png</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Sat, 30 May 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://kashifnazir.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sora Broke My Deprecation Reflex</title>
+      <link>https://kashifnazir.com/blog/sora-broke-my-deprecation-reflex/</link>
+      <pubDate>Sat, 30 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://kashifnazir.com/blog/sora-broke-my-deprecation-reflex/</guid>
+      <description>Sora&amp;#39;s shutdown was a reminder that SaaS deprecation dates do not always behave like enterprise software timelines.</description>
+    </item>
+    <item>
+      <title>Automation Keeps Hitting the Same Wall</title>
+      <link>https://kashifnazir.com/blog/automation-keeps-hitting-the-same-wall/</link>
+      <pubDate>Fri, 29 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://kashifnazir.com/blog/automation-keeps-hitting-the-same-wall/</guid>
+      <description>Zapier, RPA, and AI agents keep running into the same contract gap between orchestration tools and applications that were not built to be automated cleanly.</description>
+    </item>
+    <item>
+      <title>A DR Plan Is a Hypothesis You&#39;ve Never Tested</title>
+      <link>https://kashifnazir.com/blog/a-dr-plan-is-a-hypothesis-youve-never-tested/</link>
+      <pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://kashifnazir.com/blog/a-dr-plan-is-a-hypothesis-youve-never-tested/</guid>
+      <description>A failed backup story about why disaster recovery plans, fault injection, and restore tests only matter once someone has proved the recovery path works.</description>
+    </item>
+    <item>
+      <title>A Week on a Three-Week-Old Keyboard</title>
+      <link>https://kashifnazir.com/blog/a-week-on-a-three-week-old-keyboard/</link>
+      <pubDate>Mon, 25 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://kashifnazir.com/blog/a-week-on-a-three-week-old-keyboard/</guid>
+      <description>A week with Yaps showed where on-device voice typing works, where the real world gets in the way, and how quickly a three-week-old keyboard can improve.</description>
+    </item>
+    <item>
+      <title>Back on Windows With Mac Habits</title>
+      <link>https://kashifnazir.com/blog/windows-with-mac-habits/</link>
+      <pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://kashifnazir.com/blog/windows-with-mac-habits/</guid>
+      <description>A week back on an old Windows laptop showed what Windows 11 still gets right, what still gets in the way, and how much macOS muscle memory has started to stick.</description>
+    </item>
+    <item>
+      <title>The Service Account Problem Has a New Name</title>
+      <link>https://kashifnazir.com/blog/the-service-account-problem-has-a-new-name/</link>
+      <pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://kashifnazir.com/blog/the-service-account-problem-has-a-new-name/</guid>
+      <description>AI agent identity is being treated as a new governance problem, but most enterprises are still carrying the same unresolved service-account hygiene underneath it.</description>
+    </item>
+    <item>
+      <title>What Two AIs Saw in My Study</title>
+      <link>https://kashifnazir.com/blog/What-Two-AIs-Saw-in-My-Study/</link>
+      <pubDate>Sun, 10 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://kashifnazir.com/blog/What-Two-AIs-Saw-in-My-Study/</guid>
+      <description>Asking ChatGPT and Claude the same vision-led room question showed a difference that benchmarks do not always catch: what each model thinks the answer is for.</description>
+    </item>
+    <item>
+      <title>What I Stopped Fighting on the SA Pro Recert</title>
+      <link>https://kashifnazir.com/blog/what-i-stopped-fighting-on-the-sa-pro-recert/</link>
+      <pubDate>Sat, 09 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://kashifnazir.com/blog/what-i-stopped-fighting-on-the-sa-pro-recert/</guid>
+      <description>Moving AWS recert notes from OneNote to Notion, using Claude projects for dense study notes, and where the setup paid off on SA Pro weak spots.</description>
+    </item>
+    <item>
+      <title>Better Than What It Replaces</title>
+      <link>https://kashifnazir.com/blog/better-than-what-it-replaces/</link>
+      <pubDate>Sun, 03 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://kashifnazir.com/blog/better-than-what-it-replaces/</guid>
+      <description>Self-service, automation, and AI testing only matter when they make the real task faster or easier for the person using them.</description>
+    </item>
+    <item>
+      <title>Everyone Wants a Good Handover. Nobody Wants to Write One.</title>
+      <link>https://kashifnazir.com/blog/everyone-wants-a-good-handover/</link>
+      <pubDate>Sat, 02 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://kashifnazir.com/blog/everyone-wants-a-good-handover/</guid>
+      <description>Good documentation feels like overhead until the day it saves the incident, the handover, or your future self from starting again with no context.</description>
+    </item>
+    <item>
+      <title>Microsoft&#39;s New Outlook Took Two Years to Get Colour Categories Back</title>
+      <link>https://kashifnazir.com/blog/new-outlook-colour-categories/</link>
+      <pubDate>Tue, 28 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://kashifnazir.com/blog/new-outlook-colour-categories/</guid>
+      <description>A small missing calendar rule in new Outlook shows the hidden cost of migrating users before the new client can carry their workflows.</description>
+    </item>
+    <item>
+      <title>The Ladder Didn&#39;t Break When AI Arrived</title>
+      <link>https://kashifnazir.com/blog/the-ladder-didnt-break-when-ai-arrived/</link>
+      <pubDate>Sat, 25 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://kashifnazir.com/blog/the-ladder-didnt-break-when-ai-arrived/</guid>
+      <description>AI is eating some junior work, but the route into architecture had already been narrowed by cloud, specialisation, and the loss of accidental breadth.</description>
+    </item>
+    <item>
+      <title>AWS Summit London 2026 — Post-Summit</title>
+      <link>https://kashifnazir.com/blog/aws-summit-london-2026-post-summit/</link>
+      <pubDate>Wed, 22 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://kashifnazir.com/blog/aws-summit-london-2026-post-summit/</guid>
+      <description>The AI Builders Breakfast ended up being the most useful part of the day, and it sharpened the same question I arrived with: where the application layer fits in the AWS Summit conversation.</description>
+    </item>
+    <item>
+      <title>AWS Summit London 2026 — Pre-Summit</title>
+      <link>https://kashifnazir.com/blog/aws-summit-london-2026-pre-summit/</link>
+      <pubDate>Mon, 20 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://kashifnazir.com/blog/aws-summit-london-2026-pre-summit/</guid>
+      <description>I&amp;#39;ve never been to an AWS Summit before. On Wednesday I&amp;#39;m heading to ExCeL London, and I&amp;#39;ve already had to make some hard choices about how the day runs.</description>
+    </item>
+    <item>
+      <title>Why I Couldn&#39;t Containerise My Home Server</title>
+      <link>https://kashifnazir.com/blog/why-i-couldnt-containerise-my-home-server/</link>
+      <pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://kashifnazir.com/blog/why-i-couldnt-containerise-my-home-server/</guid>
+      <description>A 2013-era i5 meets Docker, WSL, and the reality that hardware ceilings only show up when you try something new.</description>
+    </item>
+    <item>
+      <title>Watching AI Learn to Play Red Light, Green Light</title>
+      <link>https://kashifnazir.com/blog/using-ai-reinforcement-learning/</link>
+      <pubDate>Tue, 07 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://kashifnazir.com/blog/using-ai-reinforcement-learning/</guid>
+      <description>Trying AI Warehouse&amp;#39;s Red Light, Green Light simulator and watching reinforcement learning agents shift from chaos to strategy.</description>
+    </item>
+    <item>
+      <title>Pilot to Production: The Gap Nobody Plans For</title>
+      <link>https://kashifnazir.com/blog/pilot-to-production-gap-nobody-plans-for/</link>
+      <pubDate>Sat, 04 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://kashifnazir.com/blog/pilot-to-production-gap-nobody-plans-for/</guid>
+      <description>Pilots get support, rollouts get a prayer. Why OS migrations and AI tool rollouts fail in the same human ways.</description>
+    </item>
+    <item>
+      <title>AI for AWS Certs</title>
+      <link>https://kashifnazir.com/blog/ai-for-aws-certs/</link>
+      <pubDate>Tue, 24 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://kashifnazir.com/blog/ai-for-aws-certs/</guid>
+      <description>I built two custom GPTs to help study for the AWS AI Practitioner exam. The note-creation one ate more time than it saved. The coaching one was worth keeping.</description>
+    </item>
+    <item>
+      <title>The Architecture Unbuilt</title>
+      <link>https://kashifnazir.com/blog/architecture-unbuilt/</link>
+      <pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://kashifnazir.com/blog/architecture-unbuilt/</guid>
+      <description>There are a lot of ways to build a personal site. I went with the simplest one. Here&amp;#39;s what I considered, what I&amp;#39;m planning to build later, and some stuff about AI agents that I didn&amp;#39;t expect to care about.</description>
+    </item>
+    <item>
+      <title>Building This Site</title>
+      <link>https://kashifnazir.com/blog/building-this-site/</link>
+      <pubDate>Sun, 22 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://kashifnazir.com/blog/building-this-site/</guid>
+      <description>How I built kashifnazir.com in two weeks using Hugo, two AI agents, and zero web development experience.</description>
+    </item>
+  </channel>
+</rss>

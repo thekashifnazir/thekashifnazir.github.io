@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Change-Management on Kashif Nazir</title>
+    <link>https://kashifnazir.com/tags/change-management/</link>
+    <description>Recent content in Change-Management on Kashif Nazir</description>
+    <image>
+      <title>Kashif Nazir</title>
+      <url>https://kashifnazir.com/images/social/social-card-kashif-nazir-site.png</url>
+      <link>https://kashifnazir.com/images/social/social-card-kashif-nazir-site.png</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Sat, 04 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://kashifnazir.com/tags/change-management/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Pilot to Production: The Gap Nobody Plans For</title>
+      <link>https://kashifnazir.com/blog/pilot-to-production-gap-nobody-plans-for/</link>
+      <pubDate>Sat, 04 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://kashifnazir.com/blog/pilot-to-production-gap-nobody-plans-for/</guid>
+      <description>Pilots get support, rollouts get a prayer. Why OS migrations and AI tool rollouts fail in the same human ways.</description>
+    </item>
+  </channel>
+</rss>

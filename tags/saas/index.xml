@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Saas on Kashif Nazir</title>
+    <link>https://kashifnazir.com/tags/saas/</link>
+    <description>Recent content in Saas on Kashif Nazir</description>
+    <image>
+      <title>Kashif Nazir</title>
+      <url>https://kashifnazir.com/images/social/social-card-kashif-nazir-site.png</url>
+      <link>https://kashifnazir.com/images/social/social-card-kashif-nazir-site.png</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Sat, 30 May 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://kashifnazir.com/tags/saas/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sora Broke My Deprecation Reflex</title>
+      <link>https://kashifnazir.com/blog/sora-broke-my-deprecation-reflex/</link>
+      <pubDate>Sat, 30 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://kashifnazir.com/blog/sora-broke-my-deprecation-reflex/</guid>
+      <description>Sora&amp;#39;s shutdown was a reminder that SaaS deprecation dates do not always behave like enterprise software timelines.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>AI on Kashif Nazir</title>
+    <link>https://kashifnazir.com/categories/ai/</link>
+    <description>Recent content in AI on Kashif Nazir</description>
+    <image>
+      <title>Kashif Nazir</title>
+      <url>https://kashifnazir.com/images/social/social-card-kashif-nazir-site.png</url>
+      <link>https://kashifnazir.com/images/social/social-card-kashif-nazir-site.png</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Sat, 30 May 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://kashifnazir.com/categories/ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sora Broke My Deprecation Reflex</title>
+      <link>https://kashifnazir.com/blog/sora-broke-my-deprecation-reflex/</link>
+      <pubDate>Sat, 30 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://kashifnazir.com/blog/sora-broke-my-deprecation-reflex/</guid>
+      <description>Sora&amp;#39;s shutdown was a reminder that SaaS deprecation dates do not always behave like enterprise software timelines.</description>
+    </item>
+    <item>
+      <title>A Week on a Three-Week-Old Keyboard</title>
+      <link>https://kashifnazir.com/blog/a-week-on-a-three-week-old-keyboard/</link>
+      <pubDate>Mon, 25 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://kashifnazir.com/blog/a-week-on-a-three-week-old-keyboard/</guid>
+      <description>A week with Yaps showed where on-device voice typing works, where the real world gets in the way, and how quickly a three-week-old keyboard can improve.</description>
+    </item>
+    <item>
+      <title>What Two AIs Saw in My Study</title>
+      <link>https://kashifnazir.com/blog/What-Two-AIs-Saw-in-My-Study/</link>
+      <pubDate>Sun, 10 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://kashifnazir.com/blog/What-Two-AIs-Saw-in-My-Study/</guid>
+      <description>Asking ChatGPT and Claude the same vision-led room question showed a difference that benchmarks do not always catch: what each model thinks the answer is for.</description>
+    </item>
+    <item>
+      <title>Watching AI Learn to Play Red Light, Green Light</title>
+      <link>https://kashifnazir.com/blog/using-ai-reinforcement-learning/</link>
+      <pubDate>Tue, 07 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://kashifnazir.com/blog/using-ai-reinforcement-learning/</guid>
+      <description>Trying AI Warehouse&amp;#39;s Red Light, Green Light simulator and watching reinforcement learning agents shift from chaos to strategy.</description>
+    </item>
+  </channel>
+</rss>

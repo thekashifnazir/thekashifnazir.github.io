@@ -1,0 +1,40 @@
+# Kashif Nazir
+
+> Senior Technical Architect writing about cloud architecture, application compatibility, platform modernisation, and learning in public. Based in the UK.
+
+Kash is a Senior Technical Architect at Cloudhouse, specialising in application compatibility, migration planning, and platform engineering. The site documents his learning journey across AWS, Kubernetes, infrastructure as code, Python, and Linux — with a focus on architecture decisions and the reasoning behind them.
+
+## Blog Posts
+
+- [Sora Broke My Deprecation Reflex](https://kashifnazir.com/blog/sora-broke-my-deprecation-reflex/): Sora's shutdown was a reminder that SaaS deprecation dates do not always behave like enterprise software timelines.
+- [Automation Keeps Hitting the Same Wall](https://kashifnazir.com/blog/automation-keeps-hitting-the-same-wall/): Zapier, RPA, and AI agents keep running into the same contract gap between orchestration tools and applications that were not built to be automated cleanly.
+- [A DR Plan Is a Hypothesis You've Never Tested](https://kashifnazir.com/blog/a-dr-plan-is-a-hypothesis-youve-never-tested/): A failed backup story about why disaster recovery plans, fault injection, and restore tests only matter once someone has proved the recovery path works.
+- [A Week on a Three-Week-Old Keyboard](https://kashifnazir.com/blog/a-week-on-a-three-week-old-keyboard/): A week with Yaps showed where on-device voice typing works, where the real world gets in the way, and how quickly a three-week-old keyboard can improve.
+- [Back on Windows With Mac Habits](https://kashifnazir.com/blog/windows-with-mac-habits/): A week back on an old Windows laptop showed what Windows 11 still gets right, what still gets in the way, and how much macOS muscle memory has started to stick.
+- [The Service Account Problem Has a New Name](https://kashifnazir.com/blog/the-service-account-problem-has-a-new-name/): Why AI agent identity is being treated as a new governance problem while many enterprises still carry the same unresolved service-account hygiene underneath it.
+- [What Two AIs Saw in My Study](https://kashifnazir.com/blog/What-Two-AIs-Saw-in-My-Study): Asking ChatGPT and Claude the same vision-led room question showed a difference that benchmarks do not always catch: what each model thinks the answer is for.
+- [What I Stopped Fighting on the SA Pro Recert](https://kashifnazir.com/blog/what-i-stopped-fighting-on-the-sa-pro-recert/): Moving AWS recert notes from OneNote to Notion, using Claude projects for dense study notes, and where the setup paid off on SA Pro weak spots.
+- [Better Than What It Replaces](https://kashifnazir.com/blog/better-than-what-it-replaces/): Why self-service, automation, and AI testing only matter when they make the real task faster or easier for the person using them.
+- [Everyone Wants a Good Handover. Nobody Wants to Write One.](https://kashifnazir.com/blog/everyone-wants-a-good-handover/): Why useful documentation and handovers matter most when nobody has context, nobody remembers the detail, and the person who needs the answer is future you.
+- [Microsoft's New Outlook Took Two Years to Get Colour Categories Back](https://kashifnazir.com/blog/new-outlook-colour-categories/): A small missing calendar rule in new Outlook shows the hidden cost of migrating users before the new client can carry their workflows.
+- [The Ladder Didn't Break When AI Arrived](https://kashifnazir.com/blog/the-ladder-didnt-break-when-ai-arrived/): Why AI is only the latest visible wave in a longer erosion of the route from junior technical work into senior architecture roles.
+- [AWS Summit London 2026 — Post-Summit](https://kashifnazir.com/blog/aws-summit-london-2026-post-summit/): What stood out after attending AWS Summit London 2026 — the AI Builders Breakfast, the Kiro workshop, AWS Transform for VMware, and the application-layer gap that mostly stayed outside the Summit conversation.
+- [AWS Summit London 2026 — Pre-Summit](https://kashifnazir.com/blog/aws-summit-london-2026-pre-summit/): First time attending an AWS Summit — session planning, why Kiro and VMware migration made the cut, and what to watch for on the day.
+- [Why I Couldn't Containerise My Home Server](https://kashifnazir.com/blog/why-i-couldnt-containerise-my-home-server/): A 2013-era i5 meets Docker, WSL, and the reality that hardware ceilings only show up when you try something new.
+- [Watching AI Learn to Play Red Light, Green Light](https://kashifnazir.com/blog/using-ai-reinforcement-learning/): Trying AI Warehouse's Red Light, Green Light simulator and watching reinforcement learning agents shift from chaos to strategy.
+- [Pilot to Production: The Gap Nobody Plans For](https://kashifnazir.com/blog/pilot-to-production-gap-nobody-plans-for/): Why the difficult part of migrations and AI rollouts is usually the jump from a supported pilot to organisation-wide adoption.
+- [The Architecture Unbuilt](https://kashifnazir.com/blog/architecture-unbuilt/): What was considered for hosting, why GitHub Pages won for now, the planned AWS migration stack, and thoughts on designing for AI agents and llms.txt.
+- [Building This Site](https://kashifnazir.com/blog/building-this-site/): How the site was built in two weeks using Hugo, two AI agents (Claude and Codex), and zero web development experience.
+- [AI for AWS Certs](https://kashifnazir.com/blog/ai-for-aws-certs/): Using custom GPTs to study for AWS certifications — prompt design, system instructions, and what actually works.
+
+## Projects
+
+- [Personal Site Build Log](https://kashifnazir.com/projects/site-build-log/): Tracking the first build of the personal site and the decisions behind it.
+
+## About
+
+- [About](https://kashifnazir.com/about/): Background, experience, and what this site is for.
+
+## Optional
+
+- [GitHub](https://github.com/thekashifnazir): Public repos and projects.

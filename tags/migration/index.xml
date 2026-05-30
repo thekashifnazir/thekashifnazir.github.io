@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Migration on Kashif Nazir</title>
+    <link>https://kashifnazir.com/tags/migration/</link>
+    <description>Recent content in Migration on Kashif Nazir</description>
+    <image>
+      <title>Kashif Nazir</title>
+      <url>https://kashifnazir.com/images/social/social-card-kashif-nazir-site.png</url>
+      <link>https://kashifnazir.com/images/social/social-card-kashif-nazir-site.png</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Fri, 15 May 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://kashifnazir.com/tags/migration/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Service Account Problem Has a New Name</title>
+      <link>https://kashifnazir.com/blog/the-service-account-problem-has-a-new-name/</link>
+      <pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://kashifnazir.com/blog/the-service-account-problem-has-a-new-name/</guid>
+      <description>AI agent identity is being treated as a new governance problem, but most enterprises are still carrying the same unresolved service-account hygiene underneath it.</description>
+    </item>
+    <item>
+      <title>Microsoft&#39;s New Outlook Took Two Years to Get Colour Categories Back</title>
+      <link>https://kashifnazir.com/blog/new-outlook-colour-categories/</link>
+      <pubDate>Tue, 28 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://kashifnazir.com/blog/new-outlook-colour-categories/</guid>
+      <description>A small missing calendar rule in new Outlook shows the hidden cost of migrating users before the new client can carry their workflows.</description>
+    </item>
+    <item>
+      <title>Pilot to Production: The Gap Nobody Plans For</title>
+      <link>https://kashifnazir.com/blog/pilot-to-production-gap-nobody-plans-for/</link>
+      <pubDate>Sat, 04 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://kashifnazir.com/blog/pilot-to-production-gap-nobody-plans-for/</guid>
+      <description>Pilots get support, rollouts get a prayer. Why OS migrations and AI tool rollouts fail in the same human ways.</description>
+    </item>
+  </channel>
+</rss>

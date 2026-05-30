@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Certifications on Kashif Nazir</title>
+    <link>https://kashifnazir.com/tags/certifications/</link>
+    <description>Recent content in Certifications on Kashif Nazir</description>
+    <image>
+      <title>Kashif Nazir</title>
+      <url>https://kashifnazir.com/images/social/social-card-kashif-nazir-site.png</url>
+      <link>https://kashifnazir.com/images/social/social-card-kashif-nazir-site.png</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Sat, 09 May 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://kashifnazir.com/tags/certifications/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>What I Stopped Fighting on the SA Pro Recert</title>
+      <link>https://kashifnazir.com/blog/what-i-stopped-fighting-on-the-sa-pro-recert/</link>
+      <pubDate>Sat, 09 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://kashifnazir.com/blog/what-i-stopped-fighting-on-the-sa-pro-recert/</guid>
+      <description>Moving AWS recert notes from OneNote to Notion, using Claude projects for dense study notes, and where the setup paid off on SA Pro weak spots.</description>
+    </item>
+    <item>
+      <title>AI for AWS Certs</title>
+      <link>https://kashifnazir.com/blog/ai-for-aws-certs/</link>
+      <pubDate>Tue, 24 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://kashifnazir.com/blog/ai-for-aws-certs/</guid>
+      <description>I built two custom GPTs to help study for the AWS AI Practitioner exam. The note-creation one ate more time than it saved. The coaching one was worth keeping.</description>
+    </item>
+  </channel>
+</rss>

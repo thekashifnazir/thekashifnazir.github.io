@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Operations on Kashif Nazir</title>
+    <link>https://kashifnazir.com/categories/operations/</link>
+    <description>Recent content in Operations on Kashif Nazir</description>
+    <image>
+      <title>Kashif Nazir</title>
+      <url>https://kashifnazir.com/images/social/social-card-kashif-nazir-site.png</url>
+      <link>https://kashifnazir.com/images/social/social-card-kashif-nazir-site.png</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Fri, 29 May 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://kashifnazir.com/categories/operations/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Automation Keeps Hitting the Same Wall</title>
+      <link>https://kashifnazir.com/blog/automation-keeps-hitting-the-same-wall/</link>
+      <pubDate>Fri, 29 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://kashifnazir.com/blog/automation-keeps-hitting-the-same-wall/</guid>
+      <description>Zapier, RPA, and AI agents keep running into the same contract gap between orchestration tools and applications that were not built to be automated cleanly.</description>
+    </item>
+    <item>
+      <title>A DR Plan Is a Hypothesis You&#39;ve Never Tested</title>
+      <link>https://kashifnazir.com/blog/a-dr-plan-is-a-hypothesis-youve-never-tested/</link>
+      <pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://kashifnazir.com/blog/a-dr-plan-is-a-hypothesis-youve-never-tested/</guid>
+      <description>A failed backup story about why disaster recovery plans, fault injection, and restore tests only matter once someone has proved the recovery path works.</description>
+    </item>
+    <item>
+      <title>Better Than What It Replaces</title>
+      <link>https://kashifnazir.com/blog/better-than-what-it-replaces/</link>
+      <pubDate>Sun, 03 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://kashifnazir.com/blog/better-than-what-it-replaces/</guid>
+      <description>Self-service, automation, and AI testing only matter when they make the real task faster or easier for the person using them.</description>
+    </item>
+    <item>
+      <title>Everyone Wants a Good Handover. Nobody Wants to Write One.</title>
+      <link>https://kashifnazir.com/blog/everyone-wants-a-good-handover/</link>
+      <pubDate>Sat, 02 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://kashifnazir.com/blog/everyone-wants-a-good-handover/</guid>
+      <description>Good documentation feels like overhead until the day it saves the incident, the handover, or your future self from starting again with no context.</description>
+    </item>
+  </channel>
+</rss>

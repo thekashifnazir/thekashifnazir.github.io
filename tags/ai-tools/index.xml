@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Ai-Tools on Kashif Nazir</title>
+    <link>https://kashifnazir.com/tags/ai-tools/</link>
+    <description>Recent content in Ai-Tools on Kashif Nazir</description>
+    <image>
+      <title>Kashif Nazir</title>
+      <url>https://kashifnazir.com/images/social/social-card-kashif-nazir-site.png</url>
+      <link>https://kashifnazir.com/images/social/social-card-kashif-nazir-site.png</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Mon, 25 May 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://kashifnazir.com/tags/ai-tools/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A Week on a Three-Week-Old Keyboard</title>
+      <link>https://kashifnazir.com/blog/a-week-on-a-three-week-old-keyboard/</link>
+      <pubDate>Mon, 25 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://kashifnazir.com/blog/a-week-on-a-three-week-old-keyboard/</guid>
+      <description>A week with Yaps showed where on-device voice typing works, where the real world gets in the way, and how quickly a three-week-old keyboard can improve.</description>
+    </item>
+    <item>
+      <title>Back on Windows With Mac Habits</title>
+      <link>https://kashifnazir.com/blog/windows-with-mac-habits/</link>
+      <pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://kashifnazir.com/blog/windows-with-mac-habits/</guid>
+      <description>A week back on an old Windows laptop showed what Windows 11 still gets right, what still gets in the way, and how much macOS muscle memory has started to stick.</description>
+    </item>
+  </channel>
+</rss>

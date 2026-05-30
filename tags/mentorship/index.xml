@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Mentorship on Kashif Nazir</title>
+    <link>https://kashifnazir.com/tags/mentorship/</link>
+    <description>Recent content in Mentorship on Kashif Nazir</description>
+    <image>
+      <title>Kashif Nazir</title>
+      <url>https://kashifnazir.com/images/social/social-card-kashif-nazir-site.png</url>
+      <link>https://kashifnazir.com/images/social/social-card-kashif-nazir-site.png</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Sat, 25 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://kashifnazir.com/tags/mentorship/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Ladder Didn&#39;t Break When AI Arrived</title>
+      <link>https://kashifnazir.com/blog/the-ladder-didnt-break-when-ai-arrived/</link>
+      <pubDate>Sat, 25 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://kashifnazir.com/blog/the-ladder-didnt-break-when-ai-arrived/</guid>
+      <description>AI is eating some junior work, but the route into architecture had already been narrowed by cloud, specialisation, and the loss of accidental breadth.</description>
+    </item>
+  </channel>
+</rss>

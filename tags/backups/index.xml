@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Backups on Kashif Nazir</title>
+    <link>https://kashifnazir.com/tags/backups/</link>
+    <description>Recent content in Backups on Kashif Nazir</description>
+    <image>
+      <title>Kashif Nazir</title>
+      <url>https://kashifnazir.com/images/social/social-card-kashif-nazir-site.png</url>
+      <link>https://kashifnazir.com/images/social/social-card-kashif-nazir-site.png</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Tue, 26 May 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://kashifnazir.com/tags/backups/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A DR Plan Is a Hypothesis You&#39;ve Never Tested</title>
+      <link>https://kashifnazir.com/blog/a-dr-plan-is-a-hypothesis-youve-never-tested/</link>
+      <pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://kashifnazir.com/blog/a-dr-plan-is-a-hypothesis-youve-never-tested/</guid>
+      <description>A failed backup story about why disaster recovery plans, fault injection, and restore tests only matter once someone has proved the recovery path works.</description>
+    </item>
+  </channel>
+</rss>

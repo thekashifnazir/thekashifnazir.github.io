@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Events on Kashif Nazir</title>
+    <link>https://kashifnazir.com/categories/events/</link>
+    <description>Recent content in Events on Kashif Nazir</description>
+    <image>
+      <title>Kashif Nazir</title>
+      <url>https://kashifnazir.com/images/social/social-card-kashif-nazir-site.png</url>
+      <link>https://kashifnazir.com/images/social/social-card-kashif-nazir-site.png</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Wed, 22 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://kashifnazir.com/categories/events/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AWS Summit London 2026 — Post-Summit</title>
+      <link>https://kashifnazir.com/blog/aws-summit-london-2026-post-summit/</link>
+      <pubDate>Wed, 22 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://kashifnazir.com/blog/aws-summit-london-2026-post-summit/</guid>
+      <description>The AI Builders Breakfast ended up being the most useful part of the day, and it sharpened the same question I arrived with: where the application layer fits in the AWS Summit conversation.</description>
+    </item>
+    <item>
+      <title>AWS Summit London 2026 — Pre-Summit</title>
+      <link>https://kashifnazir.com/blog/aws-summit-london-2026-pre-summit/</link>
+      <pubDate>Mon, 20 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://kashifnazir.com/blog/aws-summit-london-2026-pre-summit/</guid>
+      <description>I&amp;#39;ve never been to an AWS Summit before. On Wednesday I&amp;#39;m heading to ExCeL London, and I&amp;#39;ve already had to make some hard choices about how the day runs.</description>
+    </item>
+  </channel>
+</rss>
