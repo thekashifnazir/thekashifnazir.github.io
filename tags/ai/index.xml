@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Kashif Nazir</title>
+    <link>https://kashifnazir.com/tags/ai/</link>
+    <description>Recent content on Kashif Nazir</description>
+    <image>
+      <title>Kashif Nazir</title>
+      <url>https://kashifnazir.com/images/social/social-card-kashif-nazir-site.png</url>
+      <link>https://kashifnazir.com/images/social/social-card-kashif-nazir-site.png</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Tue, 08 Sep 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://kashifnazir.com/tags/ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Worth Building, Then Deleting</title>
+      <link>https://kashifnazir.com/blog/worth-building-then-deleting/</link>
+      <pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
+      <guid>https://kashifnazir.com/blog/worth-building-then-deleting/</guid>
+      <description>Building a personalised weekend game entirely on a phone showed what AI makes worth creating, even when the infrastructure is meant to be deleted.</description>
+    </item>
+    <item>
+      <title>The Harness Matters More Than the Model</title>
+      <link>https://kashifnazir.com/blog/the-harness-matters-more-than-the-model/</link>
+      <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
+      <guid>https://kashifnazir.com/blog/the-harness-matters-more-than-the-model/</guid>
+      <description>Two recent builds showed me that steering, specs, environments, tools, and verification loops often matter more than paying for a stronger coding model.</description>
+    </item>
+    <item>
+      <title>Working with Kiro</title>
+      <link>https://kashifnazir.com/blog/working-with-kiro/</link>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>https://kashifnazir.com/blog/working-with-kiro/</guid>
+      <description>Building Surfdeck with Kiro showed that small tasks, standing context, live hooks, and independent review mattered more than the model itself.</description>
+    </item>
+    <item>
+      <title>Your Machine Is the Boundary</title>
+      <link>https://kashifnazir.com/blog/your-machine-is-the-boundary/</link>
+      <pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>https://kashifnazir.com/blog/your-machine-is-the-boundary/</guid>
+      <description>Moving local AI projects onto public URLs turns a laptop&amp;#39;s invisible safeguards into explicit decisions about identity, permissions, resilience, and cost.</description>
+    </item>
+    <item>
+      <title>Clippy Came Back and Is Less Chatty</title>
+      <link>https://kashifnazir.com/blog/clippy-came-back-and-is-less-chatty/</link>
+      <pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>https://kashifnazir.com/blog/clippy-came-back-and-is-less-chatty/</guid>
+      <description>Codex pets bring back Clippy&amp;#39;s character without the interruption, turning animated assistants into ambient status lights for long-running agent tasks.</description>
+    </item>
+    <item>
+      <title>Why I Stopped Using BJJ Notes and Built My Own</title>
+      <link>https://kashifnazir.com/blog/why-i-stopped-using-bjj-notes-and-built-my-own/</link>
+      <pubDate>Mon, 03 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>https://kashifnazir.com/blog/why-i-stopped-using-bjj-notes-and-built-my-own/</guid>
+      <description>Building a BJJ training log in Notion with Claude turned two years of scattered notes into a connected system of reads, variations, and outcomes.</description>
+    </item>
+    <item>
+      <title>Step Out</title>
+      <link>https://kashifnazir.com/projects/step-out/</link>
+      <pubDate>Thu, 30 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://kashifnazir.com/projects/step-out/</guid>
+      <description>A community notice board that answers back. Tell it where you live and your situation in a sentence, and it picks out the local things worth your time and says why each one fits.</description>
+    </item>
+    <item>
+      <title>What Decides Whether Technology Gets Used</title>
+      <link>https://kashifnazir.com/blog/what-decides-whether-technology-gets-used/</link>
+      <pubDate>Sun, 26 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://kashifnazir.com/blog/what-decides-whether-technology-gets-used/</guid>
+      <description>Technology adoption depends less on what a tool can do than on exit costs, indirect effects and whether non-users have already chosen not to use it.</description>
+    </item>
+    <item>
+      <title>The Words Were Never Hidden</title>
+      <link>https://kashifnazir.com/blog/the-words-were-never-hidden/</link>
+      <pubDate>Sat, 25 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://kashifnazir.com/blog/the-words-were-never-hidden/</guid>
+      <description>Decoy Font fooled frontier vision models with a typographic illusion, but ordinary OCR found the message underneath.</description>
+    </item>
+    <item>
+      <title>What the Phone in My Pocket Used to Be</title>
+      <link>https://kashifnazir.com/blog/what-the-phone-in-my-pocket-used-to-be/</link>
+      <pubDate>Sat, 18 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://kashifnazir.com/blog/what-the-phone-in-my-pocket-used-to-be/</guid>
+      <description>The technologies that changed everyday life rarely announced themselves, and the phone in my pocket is a reminder to be cautious about predicting how AI will arrive.</description>
+    </item>
+    <item>
+      <title>The Same Confident Voice</title>
+      <link>https://kashifnazir.com/blog/the-same-confident-voice/</link>
+      <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://kashifnazir.com/blog/the-same-confident-voice/</guid>
+      <description>A heatwave fan problem showed how AI keeps sounding certain when it cannot check whether its answer works in the real world.</description>
+    </item>
+    <item>
+      <title>The Web You&#39;ll Never Read</title>
+      <link>https://kashifnazir.com/blog/the-web-youll-never-read/</link>
+      <pubDate>Fri, 19 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://kashifnazir.com/blog/the-web-youll-never-read/</guid>
+      <description>Machine-only web surfaces turn AI discovery into a trust problem when site owners cannot see what crawlers and agents actually receive.</description>
+    </item>
+    <item>
+      <title>Three Apps, One Feed</title>
+      <link>https://kashifnazir.com/blog/three-apps-one-feed/</link>
+      <pubDate>Sat, 13 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://kashifnazir.com/blog/three-apps-one-feed/</guid>
+      <description>A disrupted London journey, three travel apps, and the difference between confident presentation and trustworthy source data.</description>
+    </item>
+    <item>
+      <title>The Why Leaves With the Person</title>
+      <link>https://kashifnazir.com/blog/the-why-leaves-with-the-person/</link>
+      <pubDate>Fri, 12 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://kashifnazir.com/blog/the-why-leaves-with-the-person/</guid>
+      <description>Legacy systems and prompt-built systems share the same risk: the output can survive long after the reasoning behind it has disappeared.</description>
+    </item>
+    <item>
+      <title>Sora Broke My Deprecation Reflex</title>
+      <link>https://kashifnazir.com/blog/sora-broke-my-deprecation-reflex/</link>
+      <pubDate>Sat, 30 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://kashifnazir.com/blog/sora-broke-my-deprecation-reflex/</guid>
+      <description>Sora&amp;#39;s shutdown was a reminder that SaaS deprecation dates do not always behave like enterprise software timelines.</description>
+    </item>
+    <item>
+      <title>What Two AIs Saw in My Study</title>
+      <link>https://kashifnazir.com/blog/what-two-ais-saw-in-my-study/</link>
+      <pubDate>Sun, 10 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://kashifnazir.com/blog/what-two-ais-saw-in-my-study/</guid>
+      <description>Asking ChatGPT and Claude the same vision-led room question showed a difference that benchmarks do not always catch: what each model thinks the answer is for.</description>
+    </item>
+    <item>
+      <title>What I Stopped Fighting on the SA Pro Recert</title>
+      <link>https://kashifnazir.com/blog/what-i-stopped-fighting-on-the-sa-pro-recert/</link>
+      <pubDate>Sat, 09 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://kashifnazir.com/blog/what-i-stopped-fighting-on-the-sa-pro-recert/</guid>
+      <description>Moving AWS recert notes from OneNote to Notion, using Claude projects for dense study notes, and where the setup paid off on SA Pro weak spots.</description>
+    </item>
+    <item>
+      <title>Better Than What It Replaces</title>
+      <link>https://kashifnazir.com/blog/better-than-what-it-replaces/</link>
+      <pubDate>Sun, 03 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://kashifnazir.com/blog/better-than-what-it-replaces/</guid>
+      <description>Self-service, automation, and AI testing only matter when they make the real task faster or easier for the person using them.</description>
+    </item>
+    <item>
+      <title>The Ladder Didn&#39;t Break When AI Arrived</title>
+      <link>https://kashifnazir.com/blog/the-ladder-didnt-break-when-ai-arrived/</link>
+      <pubDate>Sat, 25 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://kashifnazir.com/blog/the-ladder-didnt-break-when-ai-arrived/</guid>
+      <description>AI is eating some junior work, but the route into architecture had already been narrowed by cloud, specialisation, and the loss of accidental breadth.</description>
+    </item>
+    <item>
+      <title>AWS Summit London 2026 — Post-Summit</title>
+      <link>https://kashifnazir.com/blog/aws-summit-london-2026-post-summit/</link>
+      <pubDate>Wed, 22 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://kashifnazir.com/blog/aws-summit-london-2026-post-summit/</guid>
+      <description>The AI Builders Breakfast ended up being the most useful part of the day, and it sharpened the same question I arrived with: where the application layer fits in the AWS Summit conversation.</description>
+    </item>
+    <item>
+      <title>AWS Summit London 2026 — Pre-Summit</title>
+      <link>https://kashifnazir.com/blog/aws-summit-london-2026-pre-summit/</link>
+      <pubDate>Mon, 20 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://kashifnazir.com/blog/aws-summit-london-2026-pre-summit/</guid>
+      <description>I&amp;#39;ve never been to an AWS Summit before. On Wednesday I&amp;#39;m heading to ExCeL London, and I&amp;#39;ve already had to make some hard choices about how the day runs.</description>
+    </item>
+    <item>
+      <title>Watching AI Learn to Play Red Light, Green Light</title>
+      <link>https://kashifnazir.com/blog/using-ai-reinforcement-learning/</link>
+      <pubDate>Tue, 07 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://kashifnazir.com/blog/using-ai-reinforcement-learning/</guid>
+      <description>Trying AI Warehouse&amp;#39;s Red Light, Green Light simulator and watching reinforcement learning agents shift from chaos to strategy.</description>
+    </item>
+    <item>
+      <title>Pilot to Production: The Gap Nobody Plans For</title>
+      <link>https://kashifnazir.com/blog/pilot-to-production-gap-nobody-plans-for/</link>
+      <pubDate>Sat, 04 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://kashifnazir.com/blog/pilot-to-production-gap-nobody-plans-for/</guid>
+      <description>Pilots get support, rollouts get a prayer. Why OS migrations and AI tool rollouts fail in the same human ways.</description>
+    </item>
+    <item>
+      <title>AI for AWS Certs</title>
+      <link>https://kashifnazir.com/blog/ai-for-aws-certs/</link>
+      <pubDate>Tue, 24 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://kashifnazir.com/blog/ai-for-aws-certs/</guid>
+      <description>I built two custom GPTs to help study for the AWS AI Practitioner exam. The note-creation one ate more time than it saved. The coaching one was worth keeping.</description>
+    </item>
+    <item>
+      <title>The Architecture Unbuilt</title>
+      <link>https://kashifnazir.com/blog/architecture-unbuilt/</link>
+      <pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://kashifnazir.com/blog/architecture-unbuilt/</guid>
+      <description>There are a lot of ways to build a personal site. I went with the simplest one. Here&amp;#39;s what I considered, what I&amp;#39;m planning to build later, and some stuff about AI agents that I didn&amp;#39;t expect to care about.</description>
+    </item>
+    <item>
+      <title>Building This Site</title>
+      <link>https://kashifnazir.com/blog/building-this-site/</link>
+      <pubDate>Sun, 22 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://kashifnazir.com/blog/building-this-site/</guid>
+      <description>How I built kashifnazir.com in two weeks using Hugo, two AI agents, and zero web development experience.</description>
+    </item>
+    <item>
+      <title>Building kashifnazir.com</title>
+      <link>https://kashifnazir.com/projects/site-build-log/</link>
+      <pubDate>Mon, 09 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://kashifnazir.com/projects/site-build-log/</guid>
+      <description>A short overview of the first public build of kashifnazir.com and the writing behind it.</description>
+    </item>
+  </channel>
+</rss>

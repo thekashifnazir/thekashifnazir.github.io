@@ -1,0 +1,56 @@
+<svg viewBox="0 0 720 400" xmlns="http://www.w3.org/2000/svg" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+  <style>
+    .bg { fill: #ffffff; }
+    .title { fill: #1a1a1a; font-size: 15px; font-weight: 600; }
+    .node { fill: #eef2f7; stroke: #4a5568; stroke-width: 1.5; }
+    .node-label { fill: #1a2733; font-size: 13px; font-weight: 600; }
+    .ctx-ok { fill: #f0fbf4; stroke: #2f855a; stroke-width: 1.5; }
+    .ctx-bad { fill: #fdf3f2; stroke: #c53030; stroke-width: 1.5; }
+    .ctx-fix { fill: #ffffff; stroke: #2b6cb0; stroke-width: 1.5; }
+    .ctx-label { font-size: 12.5px; font-weight: 600; }
+    .ctx-body { fill: #5b6b7a; font-size: 11px; }
+    .ok-mark { fill: #2f855a; font-size: 13px; font-weight: 700; }
+    .bad-mark { fill: #c53030; font-size: 13px; font-weight: 700; }
+    .mono { font-family: ui-monospace, 'SF Mono', Menlo, Consolas, monospace; }
+    .edge { stroke: #9aa7b4; stroke-width: 1.5; fill: none; }
+    .edge-fix { stroke: #2b6cb0; stroke-width: 1.5; fill: none; stroke-dasharray: 4 3; }
+    .foot { fill: #7a8896; font-size: 11px; }
+  </style>
+
+  <rect class="bg" x="0" y="0" width="720" height="400" rx="8"/>
+
+  <text class="title" x="24" y="34">Why the same push behaves differently headless</text>
+
+  <!-- push node -->
+  <rect class="node" x="24" y="150" width="132" height="60" rx="8"/>
+  <text class="node-label mono" x="90" y="176" text-anchor="middle">git push</text>
+  <text class="ctx-body" x="90" y="194" text-anchor="middle">asks gh for a token</text>
+
+  <!-- edges to two contexts -->
+  <path class="edge" d="M156 168 C 220 168, 220 108, 288 108"/>
+  <path class="edge" d="M156 192 C 220 192, 220 250, 288 250"/>
+
+  <!-- terminal: works -->
+  <rect class="ctx-ok" x="288" y="74" width="408" height="68" rx="8"/>
+  <text class="ctx-label" x="308" y="98" fill="#2f855a">Normal terminal</text>
+  <text class="ok-mark" x="676" y="98" text-anchor="end">works</text>
+  <text class="ctx-body" x="308" y="118">keyring helper returns the token, the push authenticates</text>
+  <text class="ctx-body mono" x="308" y="133">nothing extra to configure</text>
+
+  <!-- headless: fails -->
+  <rect class="ctx-bad" x="288" y="216" width="408" height="68" rx="8"/>
+  <text class="ctx-label" x="308" y="240" fill="#c53030">Headless: CI or agent shell</text>
+  <text class="bad-mark" x="676" y="240" text-anchor="end">fails</text>
+  <text class="ctx-body" x="308" y="260">keyring returns nothing, push dies with <tspan class="mono">could not read Password</tspan></text>
+  <text class="ctx-body" x="308" y="275">even though <tspan class="mono">gh auth token</tspan> works in the same shell</text>
+
+  <!-- fix node -->
+  <rect class="ctx-fix" x="288" y="312" width="408" height="52" rx="8"/>
+  <text class="ctx-label" x="308" y="335" fill="#2b6cb0">The fix</text>
+  <text class="ctx-body" x="308" y="353">repo-local credential helper fetches the token per push</text>
+
+  <!-- fix edge from headless to fix -->
+  <path class="edge-fix" d="M492 284 L 492 312"/>
+
+  <text class="foot" x="24" y="388">The token exists in both contexts; only the terminal's keyring helper hands it over automatically.</text>
+</svg>

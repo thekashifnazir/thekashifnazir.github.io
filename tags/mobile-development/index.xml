@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Mobile-Development on Kashif Nazir</title>
+    <link>https://kashifnazir.com/tags/mobile-development/</link>
+    <description>Recent content in Mobile-Development on Kashif Nazir</description>
+    <image>
+      <title>Kashif Nazir</title>
+      <url>https://kashifnazir.com/images/social/social-card-kashif-nazir-site.png</url>
+      <link>https://kashifnazir.com/images/social/social-card-kashif-nazir-site.png</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Tue, 08 Sep 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://kashifnazir.com/tags/mobile-development/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Worth Building, Then Deleting</title>
+      <link>https://kashifnazir.com/blog/worth-building-then-deleting/</link>
+      <pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
+      <guid>https://kashifnazir.com/blog/worth-building-then-deleting/</guid>
+      <description>Building a personalised weekend game entirely on a phone showed what AI makes worth creating, even when the infrastructure is meant to be deleted.</description>
+    </item>
+  </channel>
+</rss>

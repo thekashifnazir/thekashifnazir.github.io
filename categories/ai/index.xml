@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>AI on Kashif Nazir</title>
+    <link>https://kashifnazir.com/categories/ai/</link>
+    <description>Recent content in AI on Kashif Nazir</description>
+    <image>
+      <title>Kashif Nazir</title>
+      <url>https://kashifnazir.com/images/social/social-card-kashif-nazir-site.png</url>
+      <link>https://kashifnazir.com/images/social/social-card-kashif-nazir-site.png</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Tue, 01 Sep 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://kashifnazir.com/categories/ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Harness Matters More Than the Model</title>
+      <link>https://kashifnazir.com/blog/the-harness-matters-more-than-the-model/</link>
+      <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
+      <guid>https://kashifnazir.com/blog/the-harness-matters-more-than-the-model/</guid>
+      <description>Two recent builds showed me that steering, specs, environments, tools, and verification loops often matter more than paying for a stronger coding model.</description>
+    </item>
+    <item>
+      <title>Working with Kiro</title>
+      <link>https://kashifnazir.com/blog/working-with-kiro/</link>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>https://kashifnazir.com/blog/working-with-kiro/</guid>
+      <description>Building Surfdeck with Kiro showed that small tasks, standing context, live hooks, and independent review mattered more than the model itself.</description>
+    </item>
+    <item>
+      <title>Clippy Came Back and Is Less Chatty</title>
+      <link>https://kashifnazir.com/blog/clippy-came-back-and-is-less-chatty/</link>
+      <pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>https://kashifnazir.com/blog/clippy-came-back-and-is-less-chatty/</guid>
+      <description>Codex pets bring back Clippy&amp;#39;s character without the interruption, turning animated assistants into ambient status lights for long-running agent tasks.</description>
+    </item>
+    <item>
+      <title>The Words Were Never Hidden</title>
+      <link>https://kashifnazir.com/blog/the-words-were-never-hidden/</link>
+      <pubDate>Sat, 25 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://kashifnazir.com/blog/the-words-were-never-hidden/</guid>
+      <description>Decoy Font fooled frontier vision models with a typographic illusion, but ordinary OCR found the message underneath.</description>
+    </item>
+    <item>
+      <title>A Week Inside Marker</title>
+      <link>https://kashifnazir.com/blog/a-week-inside-marker/</link>
+      <pubDate>Sun, 19 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://kashifnazir.com/blog/a-week-inside-marker/</guid>
+      <description>A week with Marker showed how a writing tool can help by asking questions, challenging structure, and sometimes refusing to manufacture an answer.</description>
+    </item>
+    <item>
+      <title>What the Phone in My Pocket Used to Be</title>
+      <link>https://kashifnazir.com/blog/what-the-phone-in-my-pocket-used-to-be/</link>
+      <pubDate>Sat, 18 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://kashifnazir.com/blog/what-the-phone-in-my-pocket-used-to-be/</guid>
+      <description>The technologies that changed everyday life rarely announced themselves, and the phone in my pocket is a reminder to be cautious about predicting how AI will arrive.</description>
+    </item>
+    <item>
+      <title>What Actually Moves Between AI Tools</title>
+      <link>https://kashifnazir.com/blog/what-actually-moves-between-ai-tools/</link>
+      <pubDate>Mon, 13 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://kashifnazir.com/blog/what-actually-moves-between-ai-tools/</guid>
+      <description>Trying to move a writing setup from Claude to ChatGPT showed the gap between portable memory, portable code, and portable workflow enforcement.</description>
+    </item>
+    <item>
+      <title>The Same Confident Voice</title>
+      <link>https://kashifnazir.com/blog/the-same-confident-voice/</link>
+      <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://kashifnazir.com/blog/the-same-confident-voice/</guid>
+      <description>A heatwave fan problem showed how AI keeps sounding certain when it cannot check whether its answer works in the real world.</description>
+    </item>
+    <item>
+      <title>The Web You&#39;ll Never Read</title>
+      <link>https://kashifnazir.com/blog/the-web-youll-never-read/</link>
+      <pubDate>Fri, 19 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://kashifnazir.com/blog/the-web-youll-never-read/</guid>
+      <description>Machine-only web surfaces turn AI discovery into a trust problem when site owners cannot see what crawlers and agents actually receive.</description>
+    </item>
+    <item>
+      <title>Three Apps, One Feed</title>
+      <link>https://kashifnazir.com/blog/three-apps-one-feed/</link>
+      <pubDate>Sat, 13 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://kashifnazir.com/blog/three-apps-one-feed/</guid>
+      <description>A disrupted London journey, three travel apps, and the difference between confident presentation and trustworthy source data.</description>
+    </item>
+    <item>
+      <title>The Why Leaves With the Person</title>
+      <link>https://kashifnazir.com/blog/the-why-leaves-with-the-person/</link>
+      <pubDate>Fri, 12 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://kashifnazir.com/blog/the-why-leaves-with-the-person/</guid>
+      <description>Legacy systems and prompt-built systems share the same risk: the output can survive long after the reasoning behind it has disappeared.</description>
+    </item>
+    <item>
+      <title>Sora Broke My Deprecation Reflex</title>
+      <link>https://kashifnazir.com/blog/sora-broke-my-deprecation-reflex/</link>
+      <pubDate>Sat, 30 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://kashifnazir.com/blog/sora-broke-my-deprecation-reflex/</guid>
+      <description>Sora&amp;#39;s shutdown was a reminder that SaaS deprecation dates do not always behave like enterprise software timelines.</description>
+    </item>
+    <item>
+      <title>A Week on a Three-Week-Old Keyboard</title>
+      <link>https://kashifnazir.com/blog/a-week-on-a-three-week-old-keyboard/</link>
+      <pubDate>Mon, 25 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://kashifnazir.com/blog/a-week-on-a-three-week-old-keyboard/</guid>
+      <description>A week with Yaps showed where on-device voice typing works, where the real world gets in the way, and how quickly a three-week-old keyboard can improve.</description>
+    </item>
+    <item>
+      <title>What Two AIs Saw in My Study</title>
+      <link>https://kashifnazir.com/blog/what-two-ais-saw-in-my-study/</link>
+      <pubDate>Sun, 10 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://kashifnazir.com/blog/what-two-ais-saw-in-my-study/</guid>
+      <description>Asking ChatGPT and Claude the same vision-led room question showed a difference that benchmarks do not always catch: what each model thinks the answer is for.</description>
+    </item>
+    <item>
+      <title>Watching AI Learn to Play Red Light, Green Light</title>
+      <link>https://kashifnazir.com/blog/using-ai-reinforcement-learning/</link>
+      <pubDate>Tue, 07 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://kashifnazir.com/blog/using-ai-reinforcement-learning/</guid>
+      <description>Trying AI Warehouse&amp;#39;s Red Light, Green Light simulator and watching reinforcement learning agents shift from chaos to strategy.</description>
+    </item>
+  </channel>
+</rss>

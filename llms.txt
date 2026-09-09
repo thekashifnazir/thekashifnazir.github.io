@@ -1,0 +1,71 @@
+# Kashif Nazir
+
+> Senior Technical Architect writing about cloud migration, application compatibility, enterprise AI adoption, and platform modernisation. Based in the UK.
+
+Kash is a Senior Technical Architect at Cloudhouse, specialising in Windows application compatibility, legacy workload remediation, migration planning, and enterprise AI adoption. He has led AI programmes from pilot into production, built proofs of concept that graduated into product, and spent years on the kind of legacy estates where what people believe about their systems and what the systems actually do rarely match. Certifications: AWS Solutions Architect Professional, AWS AI Practitioner, Azure AI Fundamentals.
+
+## Blog Posts
+
+- [Worth Building, Then Deleting](https://kashifnazir.com/blog/worth-building-then-deleting/) (2026-09-08): Building a personalised weekend game entirely on a phone showed what AI makes worth creating, even when the infrastructure is meant to be deleted.
+- [The Harness Matters More Than the Model](https://kashifnazir.com/blog/the-harness-matters-more-than-the-model/) (2026-09-01): Two recent builds showed that steering, specs, environments, tools, and verification loops often matter more than paying for a stronger coding model.
+- [Working with Kiro](https://kashifnazir.com/blog/working-with-kiro/) (2026-08-24): Building Surfdeck with Kiro showed that small tasks, standing context, live hooks, and independent review mattered more than the model itself.
+- [Your Machine Is the Boundary](https://kashifnazir.com/blog/your-machine-is-the-boundary/) (2026-08-17): Moving local AI projects onto public URLs turns a laptop's invisible safeguards into explicit decisions about identity, permissions, resilience, and cost.
+- [Clippy Came Back and Is Less Chatty](https://kashifnazir.com/blog/clippy-came-back-and-is-less-chatty/) (2026-08-12): Codex pets bring back Clippy's character without the interruption, turning animated assistants into ambient status lights for long-running agent tasks.
+- [How Long Will It Still Be Yours?](https://kashifnazir.com/blog/how-long-will-it-still-be-yours/) (2026-08-11): Software support, subscriptions and entitlement checks increasingly decide how long the devices we buy remain ours to use.
+- [Multiple GitHub Accounts on One Mac: Folder-Routed Identity Without SSH Keys](https://kashifnazir.com/blog/multiple-github-accounts-on-one-mac-folder-routed-identity-without-ssh-keys/) (2026-08-05): A three-layer setup routes Git commit identity, HTTPS push credentials, and the GitHub CLI account by repository folder, including in headless shells.
+- [Why I Stopped Using BJJ Notes and Built My Own](https://kashifnazir.com/blog/why-i-stopped-using-bjj-notes-and-built-my-own/) (2026-08-03): Building a BJJ training log in Notion with Claude turned two years of scattered notes into a connected system of reads, variations, and outcomes.
+- [What Decides Whether Technology Gets Used](https://kashifnazir.com/blog/what-decides-whether-technology-gets-used/) (2026-07-26): Technology adoption depends less on what a tool can do than on exit costs, indirect effects and whether non-users have already chosen not to use it.
+- [The Words Were Never Hidden](https://kashifnazir.com/blog/the-words-were-never-hidden/): Decoy Font fooled frontier vision models with a typographic illusion, but ordinary OCR found the message underneath.
+- [A Week Inside Marker](https://kashifnazir.com/blog/a-week-inside-marker/) (2026-07-19): A week with Marker showed how a writing tool can help by asking questions, challenging structure, and sometimes refusing to manufacture an answer.
+- [What the Phone in My Pocket Used to Be](https://kashifnazir.com/blog/what-the-phone-in-my-pocket-used-to-be/) (2026-07-18): The technologies that changed everyday life rarely announced themselves, and the phone in my pocket is a reminder to be cautious about predicting how AI will arrive.
+- [What Actually Moves Between AI Tools](https://kashifnazir.com/blog/what-actually-moves-between-ai-tools/) (2026-07-13): Trying to move a writing setup from Claude to ChatGPT showed the gap between portable memory, portable code, and portable workflow enforcement.
+- [Heat Is an Availability Problem](https://kashifnazir.com/blog/heat-is-an-availability-problem/) (2026-07-07): Heat turns availability into a physical dependency, from an overheating laptop in a London flat to data-centre cooling failures.
+- [The Tabs I Saved for After the Exam](https://kashifnazir.com/blog/the-tabs-i-saved-for-after-the-exam/) (2026-07-06): Clearing saved tabs after the AWS recert showed how quickly useful technical workarounds age into features, obsolete notes, or stale bets.
+- [The Same Confident Voice](https://kashifnazir.com/blog/the-same-confident-voice/) (2026-07-01): A heatwave fan problem showed how AI keeps sounding certain when it cannot check whether its answer works in the real world.
+- [The Web You'll Never Read](https://kashifnazir.com/blog/the-web-youll-never-read/) (2026-06-19): Machine-only web surfaces turn AI discovery into a trust problem when site owners cannot see what crawlers and agents actually receive.
+- [The Depth the Recert Can't Test](https://kashifnazir.com/blog/the-depth-the-recert-cant-test/) (2026-06-18): AWS recertification keeps testing depth in one vendor while the architecture work that matters has become depth across the joins.
+- [Three Apps, One Feed](https://kashifnazir.com/blog/three-apps-one-feed/) (2026-06-13): A disrupted London journey, three travel apps, and the difference between confident presentation and trustworthy source data.
+- [The Why Leaves With the Person](https://kashifnazir.com/blog/the-why-leaves-with-the-person/) (2026-06-12): Legacy systems and prompt-built systems share the same risk: the output can survive long after the reasoning behind it has disappeared.
+- [The Hold That Used to Be Free](https://kashifnazir.com/blog/the-hold-that-used-to-be-free/) (2026-06-07): Why deferring hardware refreshes no longer feels like a free hold when replacement costs are rising in the background.
+- [I Think It Does This](https://kashifnazir.com/blog/i-think-it-does-this/) (2026-06-05): Preparing AI training surfaced the difference between knowing a tool and carrying around assumptions that only survive until you have to explain them.
+- [Sora Broke My Deprecation Reflex](https://kashifnazir.com/blog/sora-broke-my-deprecation-reflex/) (2026-05-30): Sora's shutdown was a reminder that SaaS deprecation dates do not always behave like enterprise software timelines.
+- [Automation Keeps Hitting the Same Wall](https://kashifnazir.com/blog/automation-keeps-hitting-the-same-wall/) (2026-05-29): Zapier, RPA, and AI agents keep running into the same contract gap between orchestration tools and applications that were not built to be automated cleanly.
+- [A DR Plan Is a Hypothesis You've Never Tested](https://kashifnazir.com/blog/a-dr-plan-is-a-hypothesis-youve-never-tested/) (2026-05-26): A failed backup story about why disaster recovery plans, fault injection, and restore tests only matter once someone has proved the recovery path works.
+- [A Week on a Three-Week-Old Keyboard](https://kashifnazir.com/blog/a-week-on-a-three-week-old-keyboard/) (2026-05-25): A week with Yaps showed where on-device voice typing works, where the real world gets in the way, and how quickly a three-week-old keyboard can improve.
+- [Back on Windows With Mac Habits](https://kashifnazir.com/blog/windows-with-mac-habits/) (2026-05-15): A week back on an old Windows laptop showed what Windows 11 still gets right, what still gets in the way, and how much macOS muscle memory has started to stick.
+- [The Service Account Problem Has a New Name](https://kashifnazir.com/blog/the-service-account-problem-has-a-new-name/) (2026-05-15): Why AI agent identity is being treated as a new governance problem while many enterprises still carry the same unresolved service-account hygiene underneath it.
+- [What Two AIs Saw in My Study](https://kashifnazir.com/blog/what-two-ais-saw-in-my-study/) (2026-05-10): Asking ChatGPT and Claude the same vision-led room question showed a difference that benchmarks do not always catch: what each model thinks the answer is for.
+- [What I Stopped Fighting on the SA Pro Recert](https://kashifnazir.com/blog/what-i-stopped-fighting-on-the-sa-pro-recert/) (2026-05-09): Moving AWS recert notes from OneNote to Notion, using Claude projects for dense study notes, and where the setup paid off on SA Pro weak spots.
+- [Better Than What It Replaces](https://kashifnazir.com/blog/better-than-what-it-replaces/) (2026-05-03): Why self-service, automation, and AI testing only matter when they make the real task faster or easier for the person using them.
+- [Everyone Wants a Good Handover. Nobody Wants to Write One.](https://kashifnazir.com/blog/everyone-wants-a-good-handover/) (2026-05-02): Why useful documentation and handovers matter most when nobody has context, nobody remembers the detail, and the person who needs the answer is future you.
+- [Microsoft's New Outlook Took Two Years to Get Colour Categories Back](https://kashifnazir.com/blog/new-outlook-colour-categories/) (2026-04-28): A small missing calendar rule in new Outlook shows the hidden cost of migrating users before the new client can carry their workflows.
+- [The Ladder Didn't Break When AI Arrived](https://kashifnazir.com/blog/the-ladder-didnt-break-when-ai-arrived/) (2026-04-25): Why AI is only the latest visible wave in a longer erosion of the route from junior technical work into senior architecture roles.
+- [AWS Summit London 2026 — Post-Summit](https://kashifnazir.com/blog/aws-summit-london-2026-post-summit/) (2026-04-22): What stood out after attending AWS Summit London 2026 — the AI Builders Breakfast, the Kiro workshop, AWS Transform for VMware, and the application-layer gap that mostly stayed outside the Summit conversation.
+- [AWS Summit London 2026 — Pre-Summit](https://kashifnazir.com/blog/aws-summit-london-2026-pre-summit/) (2026-04-20): First time attending an AWS Summit — session planning, why Kiro and VMware migration made the cut, and what to watch for on the day.
+- [Why I Couldn't Containerise My Home Server](https://kashifnazir.com/blog/why-i-couldnt-containerise-my-home-server/) (2026-04-13): A 2013-era i5 meets Docker, WSL, and the reality that hardware ceilings only show up when you try something new.
+- [Watching AI Learn to Play Red Light, Green Light](https://kashifnazir.com/blog/using-ai-reinforcement-learning/) (2026-04-07): Trying AI Warehouse's Red Light, Green Light simulator and watching reinforcement learning agents shift from chaos to strategy.
+- [Pilot to Production: The Gap Nobody Plans For](https://kashifnazir.com/blog/pilot-to-production-gap-nobody-plans-for/) (2026-04-04): Why the difficult part of migrations and AI rollouts is usually the jump from a supported pilot to organisation-wide adoption.
+- [AI for AWS Certs](https://kashifnazir.com/blog/ai-for-aws-certs/) (2026-03-24): Using custom GPTs to study for AWS certifications — prompt design, system instructions, and what actually works.
+- [The Architecture Unbuilt](https://kashifnazir.com/blog/architecture-unbuilt/) (2026-03-23): What was considered for hosting, why GitHub Pages won for now, the planned AWS migration stack, and thoughts on designing for AI agents and llms.txt.
+- [Building This Site](https://kashifnazir.com/blog/building-this-site/) (2026-03-22): How the site was built in two weeks using Hugo, two AI agents (Claude and Codex), and zero web development experience.
+
+## Projects
+
+- [Step Out](https://kashifnazir.com/projects/step-out/) (2026-07-30): A community notice board that answers back. Tell it where you live and your situation in a sentence, and it picks out the local things worth your time and says why each one fits.
+- [Building kashifnazir.com](https://kashifnazir.com/projects/site-build-log/) (2026-03-09): Tracking the first build of kashifnazir.com — Hugo, PaperMod, GitHub Pages, and the decisions behind the design and architecture.
+
+## Topics
+
+- [Automation](https://kashifnazir.com/tags/automation/)
+- [Migration](https://kashifnazir.com/tags/migration/)
+- [AI](https://kashifnazir.com/tags/ai/)
+- [AWS](https://kashifnazir.com/tags/aws/)
+- [Operations](https://kashifnazir.com/tags/operations/)
+
+## About
+
+- [About](https://kashifnazir.com/about/): Senior Technical Architect at Cloudhouse. Background spanning application compatibility, Windows packaging, cloud migration, legacy workload remediation, and enterprise AI adoption. AWS Solutions Architect Professional. Based in the UK.
+
+## Optional
+
+- [GitHub](https://github.com/thekashifnazir): Public repos and projects.

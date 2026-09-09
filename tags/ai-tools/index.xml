@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Kashif Nazir</title>
+    <link>https://kashifnazir.com/tags/ai-tools/</link>
+    <description>Recent content on Kashif Nazir</description>
+    <image>
+      <title>Kashif Nazir</title>
+      <url>https://kashifnazir.com/images/social/social-card-kashif-nazir-site.png</url>
+      <link>https://kashifnazir.com/images/social/social-card-kashif-nazir-site.png</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Wed, 12 Aug 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://kashifnazir.com/tags/ai-tools/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Clippy Came Back and Is Less Chatty</title>
+      <link>https://kashifnazir.com/blog/clippy-came-back-and-is-less-chatty/</link>
+      <pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>https://kashifnazir.com/blog/clippy-came-back-and-is-less-chatty/</guid>
+      <description>Codex pets bring back Clippy&amp;#39;s character without the interruption, turning animated assistants into ambient status lights for long-running agent tasks.</description>
+    </item>
+    <item>
+      <title>A Week Inside Marker</title>
+      <link>https://kashifnazir.com/blog/a-week-inside-marker/</link>
+      <pubDate>Sun, 19 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://kashifnazir.com/blog/a-week-inside-marker/</guid>
+      <description>A week with Marker showed how a writing tool can help by asking questions, challenging structure, and sometimes refusing to manufacture an answer.</description>
+    </item>
+    <item>
+      <title>What Actually Moves Between AI Tools</title>
+      <link>https://kashifnazir.com/blog/what-actually-moves-between-ai-tools/</link>
+      <pubDate>Mon, 13 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://kashifnazir.com/blog/what-actually-moves-between-ai-tools/</guid>
+      <description>Trying to move a writing setup from Claude to ChatGPT showed the gap between portable memory, portable code, and portable workflow enforcement.</description>
+    </item>
+    <item>
+      <title>The Tabs I Saved for After the Exam</title>
+      <link>https://kashifnazir.com/blog/the-tabs-i-saved-for-after-the-exam/</link>
+      <pubDate>Mon, 06 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://kashifnazir.com/blog/the-tabs-i-saved-for-after-the-exam/</guid>
+      <description>Clearing saved tabs after the AWS recert showed how quickly useful technical workarounds age into features, obsolete notes, or stale bets.</description>
+    </item>
+    <item>
+      <title>The Depth the Recert Can&#39;t Test</title>
+      <link>https://kashifnazir.com/blog/the-depth-the-recert-cant-test/</link>
+      <pubDate>Thu, 18 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://kashifnazir.com/blog/the-depth-the-recert-cant-test/</guid>
+      <description>AWS recertification keeps testing depth in one vendor while the architecture work that matters has become depth across the joins.</description>
+    </item>
+    <item>
+      <title>I Think It Does This</title>
+      <link>https://kashifnazir.com/blog/i-think-it-does-this/</link>
+      <pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://kashifnazir.com/blog/i-think-it-does-this/</guid>
+      <description>Preparing AI training surfaced the difference between knowing a tool and carrying around assumptions that only survive until you have to explain them.</description>
+    </item>
+    <item>
+      <title>Sora Broke My Deprecation Reflex</title>
+      <link>https://kashifnazir.com/blog/sora-broke-my-deprecation-reflex/</link>
+      <pubDate>Sat, 30 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://kashifnazir.com/blog/sora-broke-my-deprecation-reflex/</guid>
+      <description>Sora&amp;#39;s shutdown was a reminder that SaaS deprecation dates do not always behave like enterprise software timelines.</description>
+    </item>
+    <item>
+      <title>Automation Keeps Hitting the Same Wall</title>
+      <link>https://kashifnazir.com/blog/automation-keeps-hitting-the-same-wall/</link>
+      <pubDate>Fri, 29 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://kashifnazir.com/blog/automation-keeps-hitting-the-same-wall/</guid>
+      <description>Zapier, RPA, and AI agents keep running into the same contract gap between orchestration tools and applications that were not built to be automated cleanly.</description>
+    </item>
+    <item>
+      <title>A Week on a Three-Week-Old Keyboard</title>
+      <link>https://kashifnazir.com/blog/a-week-on-a-three-week-old-keyboard/</link>
+      <pubDate>Mon, 25 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://kashifnazir.com/blog/a-week-on-a-three-week-old-keyboard/</guid>
+      <description>A week with Yaps showed where on-device voice typing works, where the real world gets in the way, and how quickly a three-week-old keyboard can improve.</description>
+    </item>
+    <item>
+      <title>Back on Windows With Mac Habits</title>
+      <link>https://kashifnazir.com/blog/windows-with-mac-habits/</link>
+      <pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://kashifnazir.com/blog/windows-with-mac-habits/</guid>
+      <description>A week back on an old Windows laptop showed what Windows 11 still gets right, what still gets in the way, and how much macOS muscle memory has started to stick.</description>
+    </item>
+    <item>
+      <title>Pilot to Production: The Gap Nobody Plans For</title>
+      <link>https://kashifnazir.com/blog/pilot-to-production-gap-nobody-plans-for/</link>
+      <pubDate>Sat, 04 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://kashifnazir.com/blog/pilot-to-production-gap-nobody-plans-for/</guid>
+      <description>Pilots get support, rollouts get a prayer. Why OS migrations and AI tool rollouts fail in the same human ways.</description>
+    </item>
+    <item>
+      <title>Building This Site</title>
+      <link>https://kashifnazir.com/blog/building-this-site/</link>
+      <pubDate>Sun, 22 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://kashifnazir.com/blog/building-this-site/</guid>
+      <description>How I built kashifnazir.com in two weeks using Hugo, two AI agents, and zero web development experience.</description>
+    </item>
+  </channel>
+</rss>
