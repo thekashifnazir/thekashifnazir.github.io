@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Spec-Driven-Development on Kashif Nazir</title>
+    <link>https://kashifnazir.com/tags/spec-driven-development/</link>
+    <description>Recent content in Spec-Driven-Development on Kashif Nazir</description>
+    <image>
+      <title>Kashif Nazir</title>
+      <url>https://kashifnazir.com/images/social/social-card-kashif-nazir-site.png</url>
+      <link>https://kashifnazir.com/images/social/social-card-kashif-nazir-site.png</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Mon, 24 Aug 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://kashifnazir.com/tags/spec-driven-development/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Working with Kiro</title>
+      <link>https://kashifnazir.com/blog/working-with-kiro/</link>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>https://kashifnazir.com/blog/working-with-kiro/</guid>
+      <description>Building Surfdeck with Kiro showed that small tasks, standing context, live hooks, and independent review mattered more than the model itself.</description>
+    </item>
+  </channel>
+</rss>

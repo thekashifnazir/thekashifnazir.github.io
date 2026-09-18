@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Kashif Nazir</title>
+    <link>https://kashifnazir.com/tags/knowledge-management/</link>
+    <description>Recent content on Kashif Nazir</description>
+    <image>
+      <title>Kashif Nazir</title>
+      <url>https://kashifnazir.com/images/social/social-card-kashif-nazir-site.png</url>
+      <link>https://kashifnazir.com/images/social/social-card-kashif-nazir-site.png</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Mon, 03 Aug 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://kashifnazir.com/tags/knowledge-management/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why I Stopped Using BJJ Notes and Built My Own</title>
+      <link>https://kashifnazir.com/blog/why-i-stopped-using-bjj-notes-and-built-my-own/</link>
+      <pubDate>Mon, 03 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>https://kashifnazir.com/blog/why-i-stopped-using-bjj-notes-and-built-my-own/</guid>
+      <description>Building a BJJ training log in Notion with Claude turned two years of scattered notes into a connected system of reads, variations, and outcomes.</description>
+    </item>
+    <item>
+      <title>The Web You&#39;ll Never Read</title>
+      <link>https://kashifnazir.com/blog/the-web-youll-never-read/</link>
+      <pubDate>Fri, 19 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://kashifnazir.com/blog/the-web-youll-never-read/</guid>
+      <description>Machine-only web surfaces turn AI discovery into a trust problem when site owners cannot see what crawlers and agents actually receive.</description>
+    </item>
+    <item>
+      <title>Three Apps, One Feed</title>
+      <link>https://kashifnazir.com/blog/three-apps-one-feed/</link>
+      <pubDate>Sat, 13 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://kashifnazir.com/blog/three-apps-one-feed/</guid>
+      <description>A disrupted London journey, three travel apps, and the difference between confident presentation and trustworthy source data.</description>
+    </item>
+    <item>
+      <title>The Why Leaves With the Person</title>
+      <link>https://kashifnazir.com/blog/the-why-leaves-with-the-person/</link>
+      <pubDate>Fri, 12 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://kashifnazir.com/blog/the-why-leaves-with-the-person/</guid>
+      <description>Legacy systems and prompt-built systems share the same risk: the output can survive long after the reasoning behind it has disappeared.</description>
+    </item>
+    <item>
+      <title>I Think It Does This</title>
+      <link>https://kashifnazir.com/blog/i-think-it-does-this/</link>
+      <pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://kashifnazir.com/blog/i-think-it-does-this/</guid>
+      <description>Preparing AI training surfaced the difference between knowing a tool and carrying around assumptions that only survive until you have to explain them.</description>
+    </item>
+    <item>
+      <title>What I Stopped Fighting on the SA Pro Recert</title>
+      <link>https://kashifnazir.com/blog/what-i-stopped-fighting-on-the-sa-pro-recert/</link>
+      <pubDate>Sat, 09 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://kashifnazir.com/blog/what-i-stopped-fighting-on-the-sa-pro-recert/</guid>
+      <description>Moving AWS recert notes from OneNote to Notion, using Claude projects for dense study notes, and where the setup paid off on SA Pro weak spots.</description>
+    </item>
+    <item>
+      <title>Everyone Wants a Good Handover. Nobody Wants to Write One.</title>
+      <link>https://kashifnazir.com/blog/everyone-wants-a-good-handover/</link>
+      <pubDate>Sat, 02 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://kashifnazir.com/blog/everyone-wants-a-good-handover/</guid>
+      <description>Good documentation feels like overhead until the day it saves the incident, the handover, or your future self from starting again with no context.</description>
+    </item>
+    <item>
+      <title>The Architecture Unbuilt</title>
+      <link>https://kashifnazir.com/blog/architecture-unbuilt/</link>
+      <pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://kashifnazir.com/blog/architecture-unbuilt/</guid>
+      <description>There are a lot of ways to build a personal site. I went with the simplest one. Here&amp;#39;s what I considered, what I&amp;#39;m planning to build later, and some stuff about AI agents that I didn&amp;#39;t expect to care about.</description>
+    </item>
+  </channel>
+</rss>
