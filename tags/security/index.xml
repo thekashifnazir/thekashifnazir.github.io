@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Kashif Nazir</title>
+    <link>https://kashifnazir.com/tags/security/</link>
+    <description>Recent content on Kashif Nazir</description>
+    <image>
+      <title>Kashif Nazir</title>
+      <url>https://kashifnazir.com/images/social/social-card-kashif-nazir-site.png</url>
+      <link>https://kashifnazir.com/images/social/social-card-kashif-nazir-site.png</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Mon, 17 Aug 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://kashifnazir.com/tags/security/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Your Machine Is the Boundary</title>
+      <link>https://kashifnazir.com/blog/your-machine-is-the-boundary/</link>
+      <pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>https://kashifnazir.com/blog/your-machine-is-the-boundary/</guid>
+      <description>Moving local AI projects onto public URLs turns a laptop&amp;#39;s invisible safeguards into explicit decisions about identity, permissions, resilience, and cost.</description>
+    </item>
+    <item>
+      <title>The Web You&#39;ll Never Read</title>
+      <link>https://kashifnazir.com/blog/the-web-youll-never-read/</link>
+      <pubDate>Fri, 19 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://kashifnazir.com/blog/the-web-youll-never-read/</guid>
+      <description>Machine-only web surfaces turn AI discovery into a trust problem when site owners cannot see what crawlers and agents actually receive.</description>
+    </item>
+    <item>
+      <title>Three Apps, One Feed</title>
+      <link>https://kashifnazir.com/blog/three-apps-one-feed/</link>
+      <pubDate>Sat, 13 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://kashifnazir.com/blog/three-apps-one-feed/</guid>
+      <description>A disrupted London journey, three travel apps, and the difference between confident presentation and trustworthy source data.</description>
+    </item>
+    <item>
+      <title>The Service Account Problem Has a New Name</title>
+      <link>https://kashifnazir.com/blog/the-service-account-problem-has-a-new-name/</link>
+      <pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://kashifnazir.com/blog/the-service-account-problem-has-a-new-name/</guid>
+      <description>AI agent identity is being treated as a new governance problem, but most enterprises are still carrying the same unresolved service-account hygiene underneath it.</description>
+    </item>
+  </channel>
+</rss>
