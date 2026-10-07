@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Cloudflare on Kashif Nazir</title>
+    <link>https://kashifnazir.com/tags/cloudflare/</link>
+    <description>Recent content in Cloudflare on Kashif Nazir</description>
+    <image>
+      <title>Kashif Nazir</title>
+      <url>https://kashifnazir.com/images/social/social-card-kashif-nazir-site.png</url>
+      <link>https://kashifnazir.com/images/social/social-card-kashif-nazir-site.png</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Tue, 08 Sep 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://kashifnazir.com/tags/cloudflare/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Worth Building, Then Deleting</title>
+      <link>https://kashifnazir.com/blog/worth-building-then-deleting/</link>
+      <pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
+      <guid>https://kashifnazir.com/blog/worth-building-then-deleting/</guid>
+      <description>Building a personalised weekend game entirely on a phone showed what AI makes worth creating, even when the infrastructure is meant to be deleted.</description>
+    </item>
+    <item>
+      <title>Working with Kiro</title>
+      <link>https://kashifnazir.com/blog/working-with-kiro/</link>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>https://kashifnazir.com/blog/working-with-kiro/</guid>
+      <description>Building Surfdeck with Kiro showed that small tasks, standing context, live hooks, and independent review mattered more than the model itself.</description>
+    </item>
+    <item>
+      <title>Step Out</title>
+      <link>https://kashifnazir.com/projects/step-out/</link>
+      <pubDate>Thu, 30 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://kashifnazir.com/projects/step-out/</guid>
+      <description>A community notice board that answers back. Tell it where you live and your situation in a sentence, and it picks out the local things worth your time and says why each one fits.</description>
+    </item>
+  </channel>
+</rss>

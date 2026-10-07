@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Self-Hosting on Kashif Nazir</title>
+    <link>https://kashifnazir.com/tags/self-hosting/</link>
+    <description>Recent content in Self-Hosting on Kashif Nazir</description>
+    <image>
+      <title>Kashif Nazir</title>
+      <url>https://kashifnazir.com/images/social/social-card-kashif-nazir-site.png</url>
+      <link>https://kashifnazir.com/images/social/social-card-kashif-nazir-site.png</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Mon, 17 Aug 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://kashifnazir.com/tags/self-hosting/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Your Machine Is the Boundary</title>
+      <link>https://kashifnazir.com/blog/your-machine-is-the-boundary/</link>
+      <pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>https://kashifnazir.com/blog/your-machine-is-the-boundary/</guid>
+      <description>Moving local AI projects onto public URLs turns a laptop&amp;#39;s invisible safeguards into explicit decisions about identity, permissions, resilience, and cost.</description>
+    </item>
+  </channel>
+</rss>
