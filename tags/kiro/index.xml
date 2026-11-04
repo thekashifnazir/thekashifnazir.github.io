@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Kiro on Kashif Nazir</title>
+    <link>https://kashifnazir.com/tags/kiro/</link>
+    <description>Recent content in Kiro on Kashif Nazir</description>
+    <image>
+      <title>Kashif Nazir</title>
+      <url>https://kashifnazir.com/images/social/social-card-kashif-nazir-site.png</url>
+      <link>https://kashifnazir.com/images/social/social-card-kashif-nazir-site.png</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Tue, 01 Sep 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://kashifnazir.com/tags/kiro/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Harness Matters More Than the Model</title>
+      <link>https://kashifnazir.com/blog/the-harness-matters-more-than-the-model/</link>
+      <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
+      <guid>https://kashifnazir.com/blog/the-harness-matters-more-than-the-model/</guid>
+      <description>Two recent builds showed me that steering, specs, environments, tools, and verification loops often matter more than paying for a stronger coding model.</description>
+    </item>
+    <item>
+      <title>Working with Kiro</title>
+      <link>https://kashifnazir.com/blog/working-with-kiro/</link>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>https://kashifnazir.com/blog/working-with-kiro/</guid>
+      <description>Building Surfdeck with Kiro showed that small tasks, standing context, live hooks, and independent review mattered more than the model itself.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Production-Readiness on Kashif Nazir</title>
+    <link>https://kashifnazir.com/tags/production-readiness/</link>
+    <description>Recent content in Production-Readiness on Kashif Nazir</description>
+    <image>
+      <title>Kashif Nazir</title>
+      <url>https://kashifnazir.com/images/social/social-card-kashif-nazir-site.png</url>
+      <link>https://kashifnazir.com/images/social/social-card-kashif-nazir-site.png</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Wed, 23 Sep 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://kashifnazir.com/tags/production-readiness/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The hidden cost of &#34;I just built it&#34;</title>
+      <link>https://kashifnazir.com/blog/the-hidden-cost-of-i-just-built-it/</link>
+      <pubDate>Wed, 23 Sep 2026 00:00:00 +0000</pubDate>
+      <guid>https://kashifnazir.com/blog/the-hidden-cost-of-i-just-built-it/</guid>
+      <description>AI makes it easier to build prototypes, but expertise still decides whether the hidden work between a demo and a production-ready product is understood.</description>
+    </item>
+  </channel>
+</rss>

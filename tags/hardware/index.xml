@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Kashif Nazir</title>
+    <link>https://kashifnazir.com/tags/hardware/</link>
+    <description>Recent content on Kashif Nazir</description>
+    <image>
+      <title>Kashif Nazir</title>
+      <url>https://kashifnazir.com/images/social/social-card-kashif-nazir-site.png</url>
+      <link>https://kashifnazir.com/images/social/social-card-kashif-nazir-site.png</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Tue, 11 Aug 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://kashifnazir.com/tags/hardware/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How Long Will It Still Be Yours?</title>
+      <link>https://kashifnazir.com/blog/how-long-will-it-still-be-yours/</link>
+      <pubDate>Tue, 11 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>https://kashifnazir.com/blog/how-long-will-it-still-be-yours/</guid>
+      <description>Software support, subscriptions and entitlement checks increasingly decide how long the devices we buy remain ours to use.</description>
+    </item>
+    <item>
+      <title>What the Phone in My Pocket Used to Be</title>
+      <link>https://kashifnazir.com/blog/what-the-phone-in-my-pocket-used-to-be/</link>
+      <pubDate>Sat, 18 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://kashifnazir.com/blog/what-the-phone-in-my-pocket-used-to-be/</guid>
+      <description>The technologies that changed everyday life rarely announced themselves, and the phone in my pocket is a reminder to be cautious about predicting how AI will arrive.</description>
+    </item>
+    <item>
+      <title>Heat Is an Availability Problem</title>
+      <link>https://kashifnazir.com/blog/heat-is-an-availability-problem/</link>
+      <pubDate>Tue, 07 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://kashifnazir.com/blog/heat-is-an-availability-problem/</guid>
+      <description>Heat turns availability into a physical dependency, from an overheating laptop in a London flat to data-centre cooling failures.</description>
+    </item>
+    <item>
+      <title>The Hold That Used to Be Free</title>
+      <link>https://kashifnazir.com/blog/the-hold-that-used-to-be-free/</link>
+      <pubDate>Sun, 07 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://kashifnazir.com/blog/the-hold-that-used-to-be-free/</guid>
+      <description>Why deferring hardware refreshes no longer feels like a free hold when replacement costs are rising in the background.</description>
+    </item>
+    <item>
+      <title>A Week on a Three-Week-Old Keyboard</title>
+      <link>https://kashifnazir.com/blog/a-week-on-a-three-week-old-keyboard/</link>
+      <pubDate>Mon, 25 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://kashifnazir.com/blog/a-week-on-a-three-week-old-keyboard/</guid>
+      <description>A week with Yaps showed where on-device voice typing works, where the real world gets in the way, and how quickly a three-week-old keyboard can improve.</description>
+    </item>
+    <item>
+      <title>Back on Windows With Mac Habits</title>
+      <link>https://kashifnazir.com/blog/windows-with-mac-habits/</link>
+      <pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://kashifnazir.com/blog/windows-with-mac-habits/</guid>
+      <description>A week back on an old Windows laptop showed what Windows 11 still gets right, what still gets in the way, and how much macOS muscle memory has started to stick.</description>
+    </item>
+    <item>
+      <title>Why I Couldn&#39;t Containerise My Home Server</title>
+      <link>https://kashifnazir.com/blog/why-i-couldnt-containerise-my-home-server/</link>
+      <pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://kashifnazir.com/blog/why-i-couldnt-containerise-my-home-server/</guid>
+      <description>A 2013-era i5 meets Docker, WSL, and the reality that hardware ceilings only show up when you try something new.</description>
+    </item>
+  </channel>
+</rss>

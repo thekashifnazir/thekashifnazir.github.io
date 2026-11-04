@@ -1,0 +1,82 @@
+<svg width="100%" viewBox="0 0 860 420" role="img" xmlns="http://www.w3.org/2000/svg">
+  <title>The automation contract gap</title>
+  <desc>RPA bots, managed connectors, and AI agents all route work toward a wall labelled application contract gap, with legacy applications on the other side.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+    <style>
+      .bg { fill: #fbfaf7; }
+      .label { font: 600 18px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #22211f; }
+      .small { font: 500 13px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #55514a; }
+      .tiny { font: 500 11px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #69645d; }
+      .box-title { font: 700 15px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+      .box-text { font: 500 12px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+      .line { fill: none; stroke: #7c776f; stroke-width: 1.5; marker-end: url(#arrow); }
+      .dash { fill: none; stroke: #9b958c; stroke-width: 1.2; stroke-dasharray: 5 4; }
+    </style>
+  </defs>
+
+  <rect class="bg" x="0" y="0" width="860" height="420" rx="18"/>
+  <text class="label" x="42" y="46">Automation keeps reaching the same edge</text>
+  <text class="small" x="42" y="70">Each generation improves the driver, not the contract underneath the app.</text>
+
+  <g>
+    <rect x="54" y="104" width="210" height="70" rx="12" fill="#eef5fb" stroke="#3d78a8"/>
+    <text class="box-title" x="78" y="132" fill="#194c73">RPA bot</text>
+    <text class="box-text" x="78" y="154" fill="#2d6793">Drives the screen</text>
+    <circle cx="233" cy="139" r="15" fill="#d6e9f6" stroke="#3d78a8"/>
+    <path d="M228 139h10M233 134v10" stroke="#3d78a8" stroke-width="1.6" stroke-linecap="round"/>
+  </g>
+
+  <g>
+    <rect x="54" y="194" width="210" height="70" rx="12" fill="#f3f7ed" stroke="#638044"/>
+    <text class="box-title" x="78" y="222" fill="#405e24">Managed connector</text>
+    <text class="box-text" x="78" y="244" fill="#5b7839">Maintained API bridge</text>
+    <circle cx="233" cy="229" r="15" fill="#e2edd5" stroke="#638044"/>
+    <path d="M224 229h18M228 224l-4 5 4 5M238 224l4 5-4 5" stroke="#638044" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <g>
+    <rect x="54" y="284" width="210" height="70" rx="12" fill="#fff1e8" stroke="#c95f2b"/>
+    <text class="box-title" x="78" y="312" fill="#863d1b">AI agent</text>
+    <text class="box-text" x="78" y="334" fill="#a65327">Chooses tool calls</text>
+    <circle cx="233" cy="319" r="15" fill="#ffe0cc" stroke="#c95f2b"/>
+    <path d="M225 321c5-11 12-11 16 0M226 316h15" stroke="#c95f2b" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  </g>
+
+  <g>
+    <line class="line" x1="264" y1="139" x2="500" y2="139"/>
+    <line class="line" x1="264" y1="229" x2="500" y2="229"/>
+    <line class="line" x1="264" y1="319" x2="500" y2="319"/>
+    <text class="tiny" x="332" y="118">screen action</text>
+    <text class="tiny" x="332" y="208">connector call</text>
+    <text class="tiny" x="332" y="298">agent decision</text>
+  </g>
+
+  <g>
+    <rect x="518" y="96" width="78" height="270" rx="10" fill="#f6ede4" stroke="#a76a43"/>
+    <path d="M518 139h78M518 183h78M518 227h78M518 271h78M518 315h78M557 96v43M557 183v44M557 271v44M537 139v44M577 139v44M537 227v44M577 227v44M537 315v51M577 315v51" stroke="#c99c80" stroke-width="1"/>
+    <text class="box-title" x="557" y="206" text-anchor="middle" fill="#713a1e">Application</text>
+    <text class="box-title" x="557" y="227" text-anchor="middle" fill="#713a1e">contract</text>
+    <text class="box-title" x="557" y="248" text-anchor="middle" fill="#713a1e">gap</text>
+  </g>
+
+  <g>
+    <rect x="650" y="112" width="150" height="54" rx="10" fill="#f5f2ea" stroke="#8d877d"/>
+    <text class="box-title" x="725" y="136" text-anchor="middle" fill="#4f4b45">Legacy UI</text>
+    <text class="box-text" x="725" y="154" text-anchor="middle" fill="#6a655d">layout moves</text>
+    <rect x="650" y="190" width="150" height="54" rx="10" fill="#edf3f8" stroke="#5a7f9e"/>
+    <text class="box-title" x="725" y="214" text-anchor="middle" fill="#305571">CRM</text>
+    <text class="box-text" x="725" y="232" text-anchor="middle" fill="#456b88">fields change</text>
+    <rect x="650" y="268" width="150" height="54" rx="10" fill="#f1f4ed" stroke="#71865b"/>
+    <text class="box-title" x="725" y="292" text-anchor="middle" fill="#4c6237">SaaS app</text>
+    <text class="box-text" x="725" y="310" text-anchor="middle" fill="#64784e">API drifts</text>
+    <path class="dash" d="M596 139h54M596 217h54M596 295h54"/>
+  </g>
+
+  <g>
+    <rect x="302" y="360" width="426" height="34" rx="17" fill="#eeece6" stroke="#c9c2b8"/>
+    <text class="tiny" x="515" y="381" text-anchor="middle">Stable API, identity, audit, versioning: still the missing contract.</text>
+  </g>
+</svg>

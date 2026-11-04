@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Kashif Nazir</title>
+    <link>https://kashifnazir.com/tags/cloud/</link>
+    <description>Recent content on Kashif Nazir</description>
+    <image>
+      <title>Kashif Nazir</title>
+      <url>https://kashifnazir.com/images/social/social-card-kashif-nazir-site.png</url>
+      <link>https://kashifnazir.com/images/social/social-card-kashif-nazir-site.png</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Tue, 07 Jul 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://kashifnazir.com/tags/cloud/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Heat Is an Availability Problem</title>
+      <link>https://kashifnazir.com/blog/heat-is-an-availability-problem/</link>
+      <pubDate>Tue, 07 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://kashifnazir.com/blog/heat-is-an-availability-problem/</guid>
+      <description>Heat turns availability into a physical dependency, from an overheating laptop in a London flat to data-centre cooling failures.</description>
+    </item>
+    <item>
+      <title>The Depth the Recert Can&#39;t Test</title>
+      <link>https://kashifnazir.com/blog/the-depth-the-recert-cant-test/</link>
+      <pubDate>Thu, 18 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://kashifnazir.com/blog/the-depth-the-recert-cant-test/</guid>
+      <description>AWS recertification keeps testing depth in one vendor while the architecture work that matters has become depth across the joins.</description>
+    </item>
+    <item>
+      <title>The Ladder Didn&#39;t Break When AI Arrived</title>
+      <link>https://kashifnazir.com/blog/the-ladder-didnt-break-when-ai-arrived/</link>
+      <pubDate>Sat, 25 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://kashifnazir.com/blog/the-ladder-didnt-break-when-ai-arrived/</guid>
+      <description>AI is eating some junior work, but the route into architecture had already been narrowed by cloud, specialisation, and the loss of accidental breadth.</description>
+    </item>
+    <item>
+      <title>AWS Summit London 2026 — Post-Summit</title>
+      <link>https://kashifnazir.com/blog/aws-summit-london-2026-post-summit/</link>
+      <pubDate>Wed, 22 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://kashifnazir.com/blog/aws-summit-london-2026-post-summit/</guid>
+      <description>The AI Builders Breakfast ended up being the most useful part of the day, and it sharpened the same question I arrived with: where the application layer fits in the AWS Summit conversation.</description>
+    </item>
+    <item>
+      <title>AWS Summit London 2026 — Pre-Summit</title>
+      <link>https://kashifnazir.com/blog/aws-summit-london-2026-pre-summit/</link>
+      <pubDate>Mon, 20 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://kashifnazir.com/blog/aws-summit-london-2026-pre-summit/</guid>
+      <description>I&amp;#39;ve never been to an AWS Summit before. On Wednesday I&amp;#39;m heading to ExCeL London, and I&amp;#39;ve already had to make some hard choices about how the day runs.</description>
+    </item>
+    <item>
+      <title>Why I Couldn&#39;t Containerise My Home Server</title>
+      <link>https://kashifnazir.com/blog/why-i-couldnt-containerise-my-home-server/</link>
+      <pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://kashifnazir.com/blog/why-i-couldnt-containerise-my-home-server/</guid>
+      <description>A 2013-era i5 meets Docker, WSL, and the reality that hardware ceilings only show up when you try something new.</description>
+    </item>
+  </channel>
+</rss>

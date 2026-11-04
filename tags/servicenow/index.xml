@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Servicenow on Kashif Nazir</title>
+    <link>https://kashifnazir.com/tags/servicenow/</link>
+    <description>Recent content in Servicenow on Kashif Nazir</description>
+    <image>
+      <title>Kashif Nazir</title>
+      <url>https://kashifnazir.com/images/social/social-card-kashif-nazir-site.png</url>
+      <link>https://kashifnazir.com/images/social/social-card-kashif-nazir-site.png</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Fri, 23 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://kashifnazir.com/tags/servicenow/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>All the Permissions, None of the Context</title>
+      <link>https://kashifnazir.com/blog/all-the-permissions-none-of-the-context/</link>
+      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
+      <guid>https://kashifnazir.com/blog/all-the-permissions-none-of-the-context/</guid>
+      <description>Shadow AI brings a familiar migration problem into sharper focus: unknown applications, broad permissions, and actions that outrun the context needed to judge them.</description>
+    </item>
+  </channel>
+</rss>
